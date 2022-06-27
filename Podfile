@@ -1,4 +1,5 @@
 target 'CourseProject' do
   use_frameworks!
-  pod 'FirebaseUI'
+  pod 'FirebaseAuth'
+  pod 'GoogleSignIn'
 end
