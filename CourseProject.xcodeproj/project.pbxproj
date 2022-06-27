@@ -14,6 +14,8 @@
 		0E831C9F28675DA400347558 /* CourseProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E831C9D28675DA400347558 /* CourseProject.xcdatamodeld */; };
 		0E831CA128675DA600347558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E831CA028675DA600347558 /* Assets.xcassets */; };
 		0E831CA428675DA600347558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E831CA228675DA600347558 /* LaunchScreen.storyboard */; };
+		45ACF217286A2FB30007EDC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45ACF216286A2FB30007EDC0 /* GoogleService-Info.plist */; };
+		93E44A65717BF7FA05D094C4 /* Pods_CourseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21192CC9470CBE9F9D0C4A8 /* Pods_CourseProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		0E831CA028675DA600347558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E831CA328675DA600347558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E831CA528675DA600347558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33DC17C0E2ADC3B8005099BB /* Pods-CourseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseProject.debug.xcconfig"; path = "Target Support Files/Pods-CourseProject/Pods-CourseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		45ACF216286A2FB30007EDC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4FFB0868C1A8398533A14D42 /* Pods-CourseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseProject.release.xcconfig"; path = "Target Support Files/Pods-CourseProject/Pods-CourseProject.release.xcconfig"; sourceTree = "<group>"; };
+		D21192CC9470CBE9F9D0C4A8 /* Pods_CourseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CourseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93E44A65717BF7FA05D094C4 /* Pods_CourseProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +51,8 @@
 			children = (
 				0E831C9328675DA400347558 /* CourseProject */,
 				0E831C9228675DA400347558 /* Products */,
+				7801C1E8A48F609280D09800 /* Pods */,
+				AE586D2FDE869128BF334A69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,10 +73,28 @@
 				0E831C9A28675DA400347558 /* Main.storyboard */,
 				0E831CA028675DA600347558 /* Assets.xcassets */,
 				0E831CA228675DA600347558 /* LaunchScreen.storyboard */,
+				45ACF216286A2FB30007EDC0 /* GoogleService-Info.plist */,
 				0E831CA528675DA600347558 /* Info.plist */,
 				0E831C9D28675DA400347558 /* CourseProject.xcdatamodeld */,
 			);
 			path = CourseProject;
+			sourceTree = "<group>";
+		};
+		7801C1E8A48F609280D09800 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33DC17C0E2ADC3B8005099BB /* Pods-CourseProject.debug.xcconfig */,
+				4FFB0868C1A8398533A14D42 /* Pods-CourseProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE586D2FDE869128BF334A69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D21192CC9470CBE9F9D0C4A8 /* Pods_CourseProject.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E831CA828675DA600347558 /* Build configuration list for PBXNativeTarget "CourseProject" */;
 			buildPhases = (
+				1A72CFAAF695A5A5DEFB93B6 /* [CP] Check Pods Manifest.lock */,
 				0E831C8D28675DA400347558 /* Sources */,
 				0E831C8E28675DA400347558 /* Frameworks */,
 				0E831C8F28675DA400347558 /* Resources */,
+				41AD24D11334985866DB55DF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,12 +158,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E831CA428675DA600347558 /* LaunchScreen.storyboard in Resources */,
+				45ACF217286A2FB30007EDC0 /* GoogleService-Info.plist in Resources */,
 				0E831CA128675DA600347558 /* Assets.xcassets in Resources */,
 				0E831C9C28675DA400347558 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A72CFAAF695A5A5DEFB93B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CourseProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41AD24D11334985866DB55DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CourseProject/Pods-CourseProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CourseProject/Pods-CourseProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CourseProject/Pods-CourseProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E831C8D28675DA400347558 /* Sources */ = {
@@ -286,6 +358,7 @@
 		};
 		0E831CA928675DA600347558 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33DC17C0E2ADC3B8005099BB /* Pods-CourseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,7 +377,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AnastasiyaLaptseva.CourseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.courseproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,6 +387,7 @@
 		};
 		0E831CAA28675DA600347558 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FFB0868C1A8398533A14D42 /* Pods-CourseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -332,7 +406,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AnastasiyaLaptseva.CourseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.courseproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
