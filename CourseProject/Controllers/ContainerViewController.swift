@@ -18,14 +18,14 @@ class ContainerViewController: UIViewController, HomeViewControllerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        configureCarViewController()
+        configureHomeViewController()
     }
     
-    func configureCarViewController() {
+    func configureHomeViewController() {
         view.backgroundColor = .white
 
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let controller = storyboard.instantiateViewController(withIdentifier: "carVC") as? HomeViewController
+        let controller = storyboard.instantiateViewController(withIdentifier: "homeVC") as? HomeViewController
         guard let controller = controller else { return }
 
         homeController = controller
@@ -43,7 +43,7 @@ class ContainerViewController: UIViewController, HomeViewControllerDelegate {
             print("добавиль mainviewcontroller")
         }
     }
-    func configureChoiceCarMenuViewController() {
+    func configureCollectionMenuViewController() {
         if collectionMenuViewController == nil {
             collectionMenuViewController = RecordsCollectionViewController()
             menuViewController?.view.removeFromSuperview()
@@ -75,7 +75,7 @@ class ContainerViewController: UIViewController, HomeViewControllerDelegate {
             }
         }
     }
-    func showCollectionCarViewController(shouldMove: Bool) {
+    func showCollectionViewController(shouldMove: Bool) {
         if shouldMove {
             //показываем меню
             UIView.animate(withDuration: 0.5,
@@ -99,7 +99,7 @@ class ContainerViewController: UIViewController, HomeViewControllerDelegate {
         }
     }
     
-//    MARK: CarViewControllerDelegate
+//    MARK: HomeViewControllerDelegate
     func toggleMenu() {
         configureMenuViewController()
         isMove = !isMove
@@ -107,9 +107,9 @@ class ContainerViewController: UIViewController, HomeViewControllerDelegate {
     }
     
     func collectionMenu() {
-        configureChoiceCarMenuViewController()
+        configureCollectionMenuViewController()
         isMoveCollection = !isMoveCollection
-        showCollectionCarViewController(shouldMove: isMoveCollection)
+        showCollectionViewController(shouldMove: isMoveCollection)
     }
 }
 

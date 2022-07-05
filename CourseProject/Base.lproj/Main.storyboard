@@ -70,7 +70,7 @@
         <!--Home View Controller-->
         <scene sceneID="6eL-5F-61f">
             <objects>
-                <viewController storyboardIdentifier="carVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pCG-oN-6LY" customClass="HomeViewController" customModule="CourseProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="homeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pCG-oN-6LY" customClass="HomeViewController" customModule="CourseProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aJa-PC-ssf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
