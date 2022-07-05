@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pCG-oN-6LY">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -37,8 +37,156 @@
             </objects>
             <point key="canvasLocation" x="35" y="83"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="rci-gE-OJt">
+            <objects>
+                <viewController id="N9l-Hq-vNY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VWE-5u-IEp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="lzo-xE-gbG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gvb-j8-uv9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="768.75"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="nLz-He-JKg">
+            <objects>
+                <viewController id="mUt-um-9qj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HBs-Tr-P6k">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="r4r-eV-IlX"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1HW-VR-Ixp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="766.66666666666674" y="768.75"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="6eL-5F-61f">
+            <objects>
+                <viewController storyboardIdentifier="carVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pCG-oN-6LY" customClass="HomeViewController" customModule="CourseProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aJa-PC-ssf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background2" translatesAutoresizingMaskIntoConstraints="NO" id="uJo-el-HK1" userLabel="BackgroundView">
+                                <rect key="frame" x="0.0" y="-39" width="414" height="935"/>
+                                <rect key="contentStretch" x="0.0" y="1" width="0.0" height="1"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shirt" translatesAutoresizingMaskIntoConstraints="NO" id="GAy-sU-rK6" userLabel="MapOfTheDay">
+                                <rect key="frame" x="132" y="303.5" width="150" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="QIC-TD-9uw"/>
+                                    <constraint firstAttribute="height" constant="250" id="sXr-D8-2lX"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C2x-rm-J9f" userLabel="ButtonMenu">
+                                <rect key="frame" x="0.0" y="44" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="NQ2-vL-bje"/>
+                                    <constraint firstAttribute="width" constant="70" id="Zxt-vL-mVO"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="text.justify" catalog="system">
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonMenuTapped:" destination="pCG-oN-6LY" eventType="touchUpInside" id="LZO-zj-Nld"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAW-ub-Nms" userLabel="CollectionMenu">
+                                <rect key="frame" x="344" y="44" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="4zX-X7-apj"/>
+                                    <constraint firstAttribute="width" constant="70" id="vWQ-MI-U0y"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="text.justify" catalog="system">
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonCollectionTapped:" destination="pCG-oN-6LY" eventType="touchUpInside" id="Vue-YX-JK0"/>
+                                    <action selector="buttonOpenMapTapped:" destination="pCG-oN-6LY" eventType="touchUpInside" id="HAi-Ff-iHF"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Map of the day" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gM-hY-WHj" userLabel="MapLabel">
+                                <rect key="frame" x="107" y="49" width="200" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="OnZ-tp-fA3"/>
+                                    <constraint firstAttribute="width" constant="200" id="aWN-ZB-syS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" systemColor="labelColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJX-ps-K1g">
+                                <rect key="frame" x="107" y="627" width="200" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="cvY-2y-Pbq"/>
+                                    <constraint firstAttribute="height" constant="50" id="jFa-Ag-QrH"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="button" imagePlacement="top" title="Open" imagePadding="0.0">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonOpenMapTapped:" destination="pCG-oN-6LY" eventType="touchUpInside" id="plW-Cm-hPs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6sg-vl-eo7"/>
+                        <color key="backgroundColor" red="0.47243726250000001" green="0.56617134810000003" blue="0.72943168879999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6sg-vl-eo7" firstAttribute="top" secondItem="C2x-rm-J9f" secondAttribute="top" id="0fk-QE-MoO"/>
+                            <constraint firstItem="uJo-el-HK1" firstAttribute="leading" secondItem="6sg-vl-eo7" secondAttribute="leading" id="2YR-eG-TUH"/>
+                            <constraint firstItem="gJX-ps-K1g" firstAttribute="top" secondItem="GAy-sU-rK6" secondAttribute="bottom" constant="73.5" id="5wl-Ds-Ygd"/>
+                            <constraint firstItem="6sg-vl-eo7" firstAttribute="top" secondItem="IAW-ub-Nms" secondAttribute="top" id="6rP-KG-pss"/>
+                            <constraint firstItem="GAy-sU-rK6" firstAttribute="centerX" secondItem="6sg-vl-eo7" secondAttribute="centerX" id="9Fb-Ss-AX9"/>
+                            <constraint firstItem="GAy-sU-rK6" firstAttribute="centerY" secondItem="6sg-vl-eo7" secondAttribute="centerY" id="Fft-7j-N6F"/>
+                            <constraint firstItem="2gM-hY-WHj" firstAttribute="centerX" secondItem="6sg-vl-eo7" secondAttribute="centerX" id="KPH-Zq-CcQ"/>
+                            <constraint firstItem="uJo-el-HK1" firstAttribute="centerY" secondItem="6sg-vl-eo7" secondAttribute="centerY" id="Pu0-Ho-Co9"/>
+                            <constraint firstItem="2gM-hY-WHj" firstAttribute="top" secondItem="6sg-vl-eo7" secondAttribute="top" constant="5" id="ULB-AF-Xer"/>
+                            <constraint firstItem="6sg-vl-eo7" firstAttribute="trailing" secondItem="uJo-el-HK1" secondAttribute="trailing" id="URo-7d-xfi"/>
+                            <constraint firstItem="C2x-rm-J9f" firstAttribute="leading" secondItem="6sg-vl-eo7" secondAttribute="leading" id="Zhy-yh-5PU"/>
+                            <constraint firstItem="6sg-vl-eo7" firstAttribute="trailing" secondItem="IAW-ub-Nms" secondAttribute="trailing" id="f5I-N2-kzz"/>
+                            <constraint firstItem="uJo-el-HK1" firstAttribute="centerX" secondItem="6sg-vl-eo7" secondAttribute="centerX" id="ojN-kJ-UN7"/>
+                            <constraint firstItem="gJX-ps-K1g" firstAttribute="centerX" secondItem="uJo-el-HK1" secondAttribute="centerX" id="s0q-Ma-dXG"/>
+                            <constraint firstAttribute="bottom" secondItem="uJo-el-HK1" secondAttribute="bottom" id="vvE-Pj-ZMu"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="MapLabel" destination="2gM-hY-WHj" id="gDi-N9-0M3"/>
+                        <outlet property="MapViewImage" destination="GAy-sU-rK6" id="cVV-A3-MlD"/>
+                        <outlet property="backgroundBottomConstraint" destination="Pu0-Ho-Co9" id="B04-gp-uAE"/>
+                        <outlet property="backgroundView" destination="uJo-el-HK1" id="e3Y-Gb-9e8"/>
+                        <outlet property="buttonMenu" destination="C2x-rm-J9f" id="fAn-B9-JOP"/>
+                        <outlet property="buttonOpenMap" destination="gJX-ps-K1g" id="m5Z-Fy-ulV"/>
+                        <outlet property="mapCenterAnchour" destination="9Fb-Ss-AX9" id="ALQ-Lk-sHm"/>
+                        <outlet property="scoreLabel" destination="2gM-hY-WHj" id="LqK-Sf-H4J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pg4-bd-KAP" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-730.43478260869574" y="768.75"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="background2" width="1080" height="1920"/>
+        <image name="button" width="250" height="250"/>
+        <image name="shirt" width="500" height="650"/>
+        <image name="text.justify" catalog="system" width="128" height="100"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
