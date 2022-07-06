@@ -16,8 +16,8 @@ enum MenuModel: Int, CustomStringConvertible {
     
     var description: String {
         switch self {
-        case .TarotSpreads: return "Tarot Spreads" //"Left \(UserDefaults.standard.integer(forKey: "leftClick"))"
-        case .Description: return "Description" //"Right \(UserDefaults.standard.integer(forKey: "rightClick"))"
+        case .TarotSpreads: return "Tarot Spreads" 
+        case .Description: return "Description" 
         case .Preservation: return "Preservation"
         case .Notes: return "Notes"
         case .Settings: return "Settings"

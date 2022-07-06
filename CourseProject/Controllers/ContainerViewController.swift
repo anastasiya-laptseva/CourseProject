@@ -17,7 +17,6 @@ class ContainerViewController: UIViewController, HomeViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         configureHomeViewController()
     }
     
@@ -40,12 +39,12 @@ class ContainerViewController: UIViewController, HomeViewControllerDelegate {
             collectionMenuViewController?.view.removeFromSuperview()
             view.insertSubview(menuViewController.view, at: 0)
             addChild(menuViewController)
-            print("добавиль mainviewcontroller")
+            print("добавил mainviewcontroller")
         }
     }
     func configureCollectionMenuViewController() {
         if collectionMenuViewController == nil {
-            collectionMenuViewController = RecordsCollectionViewController()
+            collectionMenuViewController = MapsCollectionViewController()
             menuViewController?.view.removeFromSuperview()
             view.insertSubview(collectionMenuViewController.view, at: 0)
             addChild(collectionMenuViewController)

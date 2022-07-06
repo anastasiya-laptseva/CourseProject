@@ -8,20 +8,14 @@
 import UIKit
 
 class MenuViewController: UIViewController {
-    let keyBestDate = "bestscore_date"
-    let keyBestScore = "bestscore_score"
-    
+
     var tableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(fireTimer), userInfo: nil, repeats: true)
-        
         view.backgroundColor = .systemPink
         configureTableView()
-
-        // Do any additional setup after loading the view.
     }
     @objc func fireTimer() {
         tableView.reloadData()
@@ -36,7 +30,6 @@ class MenuViewController: UIViewController {
         tableView.frame = view.frame
         tableView.isMultipleTouchEnabled = false
 //        tableView.selection = .singleSelection
-        
         tableView.separatorStyle = .none
         tableView.rowHeight = 60
         tableView.backgroundColor = .darkGray
@@ -45,7 +38,7 @@ class MenuViewController: UIViewController {
 
 extension MenuViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 6
+        return 5
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -59,65 +52,19 @@ extension MenuViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         switch indexPath.row {
-        case 4:
+        case 3:
             reloadInfo()
             break
-        case 5:
+        case 4:
             removeAllData()
-            break
-        case 2:
-            bestScoreAlert()
             break
         default:
             break
         }
     }
     func reloadInfo() {
-        
     }
     
     func removeAllData() {
-        let leftClick = UserDefaults.standard.integer(forKey: "leftClick")
-        let rightClick = UserDefaults.standard.integer(forKey: "rightClick")
-        var oldDate = UserDefaults.standard.object(forKey: keyBestDate) as? Date
-        if oldDate == nil {
-            oldDate = Date.now
-        }
-        let oldScore = UserDefaults.standard.integer(forKey: keyBestScore)
-        
-        let domain = Bundle.main.bundleIdentifier!
-        UserDefaults.standard.removePersistentDomain(forName: domain)
-        UserDefaults.standard.synchronize()
-        
-        
-        let bestScore = leftClick + rightClick
-        if oldScore < bestScore {
-            UserDefaults.standard.set(bestScore, forKey: keyBestScore)
-            UserDefaults.standard.set(Date.now,forKey: keyBestDate)
-        }
-        else {
-            UserDefaults.standard.set(oldScore, forKey: keyBestScore)
-            UserDefaults.standard.set(oldDate,forKey: keyBestDate)
-        }
-    }
-    
-    func bestScoreAlert() {
-        let bestScore = UserDefaults.standard.integer(forKey: keyBestScore)
-        if(bestScore == 0) {
-            showAlert(message: "No best score")
-            return
-        }
-        
-        let date = UserDefaults.standard.object(forKey: keyBestDate) as! Date
-        let df = DateFormatter()
-        df.dateFormat = "dd/MM/yyyy HH:mm"
-        
-        showAlert(message: "\(bestScore) points \(df.string(from: date))")
-    }
-    
-    func showAlert(message: String) {
-        let alert = UIAlertController(title: "BestScore", message: message, preferredStyle: UIAlertController.Style.alert)
-        alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
-        self.present(alert, animated: true, completion: nil)
     }
 }

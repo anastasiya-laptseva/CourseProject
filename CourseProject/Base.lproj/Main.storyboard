@@ -164,13 +164,14 @@
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="MapLabel" destination="2gM-hY-WHj" id="gDi-N9-0M3"/>
-                        <outlet property="MapViewImage" destination="GAy-sU-rK6" id="cVV-A3-MlD"/>
-                        <outlet property="backgroundBottomConstraint" destination="Pu0-Ho-Co9" id="B04-gp-uAE"/>
+                        <outlet property="backgroundBottomConstraint" destination="Pu0-Ho-Co9" id="tAt-w1-Awp"/>
+                        <outlet property="backgroundTopConstraint" destination="uJo-el-HK1" id="VvG-lA-ozx"/>
                         <outlet property="backgroundView" destination="uJo-el-HK1" id="e3Y-Gb-9e8"/>
                         <outlet property="buttonMenu" destination="C2x-rm-J9f" id="fAn-B9-JOP"/>
                         <outlet property="buttonOpenMap" destination="gJX-ps-K1g" id="m5Z-Fy-ulV"/>
-                        <outlet property="mapCenterAnchour" destination="9Fb-Ss-AX9" id="ALQ-Lk-sHm"/>
+                        <outlet property="mapCenterAnchour" destination="9Fb-Ss-AX9" id="5Fp-iG-Ccy"/>
+                        <outlet property="mapLabel" destination="2gM-hY-WHj" id="gDi-N9-0M3"/>
+                        <outlet property="mapViewImage" destination="GAy-sU-rK6" id="cVV-A3-MlD"/>
                         <outlet property="scoreLabel" destination="2gM-hY-WHj" id="LqK-Sf-H4J"/>
                     </connections>
                 </viewController>

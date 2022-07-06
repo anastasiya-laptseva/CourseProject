@@ -11,8 +11,6 @@ class MenuTableViewCell: UITableViewCell {
     
     static let reuseID = "MenuTableViewCell"
     
-//    private var solidColorView = UIView(frame: .zero)
-    
     let solidColorView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
@@ -53,7 +51,6 @@ class MenuTableViewCell: UITableViewCell {
         solidColorView.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
         solidColorView.heightAnchor.constraint(equalToConstant: 70).isActive = true
         solidColorView.widthAnchor.constraint(equalToConstant: 70).isActive = true
-//        solidColorView.leadingAnchor.constraint(equalTo: iconImageView.trailingAnchor, constant: 12).isActive = true
         solidColorView.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
         
         //myLabel constraints
@@ -63,15 +60,12 @@ class MenuTableViewCell: UITableViewCell {
     }
     //окрашивание ячейки
     override func setSelected(_ selected: Bool, animated: Bool) {
-//        self.myLabel.backgroundColor = selected ? .blue : .white
     }
     override func setHighlighted(_ highlighted: Bool, animated: Bool) {
         self.myLabel.textColor = highlighted ? .blue : .white
-//        self.backgroundColor = highlighted ? .cyan : .white
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
 }

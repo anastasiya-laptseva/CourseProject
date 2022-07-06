@@ -9,7 +9,7 @@ import UIKit
 
 private let reuseIdentifier = "Cell"
 
-class RecordsCollectionViewController: UIViewController {
+class MapsCollectionViewController: UIViewController {
     var myCollectionView: UICollectionView?
     
     override func viewDidLoad() {
@@ -32,8 +32,7 @@ class RecordsCollectionViewController: UIViewController {
     }
 }
 
-
-extension RecordsCollectionViewController: UICollectionViewDataSource {
+extension MapsCollectionViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 10 // How many cells to display
     }
@@ -46,7 +45,7 @@ extension RecordsCollectionViewController: UICollectionViewDataSource {
         return myCell
     }
 }
-extension RecordsCollectionViewController: UICollectionViewDelegate {
+extension MapsCollectionViewController: UICollectionViewDelegate {
  
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
        print("User tapped on item \(indexPath.row)")

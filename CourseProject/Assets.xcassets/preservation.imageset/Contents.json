@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "бургер книга.png",
+      "filename" : "бургер сохранение.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "бургер книга-1.png",
+      "filename" : "бургер сохранение-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "бургер книга-2.png",
+      "filename" : "бургер сохранение-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
