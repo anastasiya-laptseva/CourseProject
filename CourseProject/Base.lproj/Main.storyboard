@@ -172,7 +172,6 @@
                         <outlet property="mapCenterAnchour" destination="9Fb-Ss-AX9" id="5Fp-iG-Ccy"/>
                         <outlet property="mapLabel" destination="2gM-hY-WHj" id="gDi-N9-0M3"/>
                         <outlet property="mapViewImage" destination="GAy-sU-rK6" id="cVV-A3-MlD"/>
-                        <outlet property="scoreLabel" destination="2gM-hY-WHj" id="LqK-Sf-H4J"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pg4-bd-KAP" sceneMemberID="firstResponder"/>
