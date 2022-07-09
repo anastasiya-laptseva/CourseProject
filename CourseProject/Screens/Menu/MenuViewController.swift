@@ -33,6 +33,9 @@ class MenuViewController: UIViewController {
             numberPosition = 0
         }
     }
+    @IBAction func tapChangedMap(_ sender: Any) {
+    }
+    
 }
 
 extension MenuViewController: UITableViewDataSource, UITableViewDelegate {
