@@ -30,16 +30,13 @@ class AuthViewController: UIViewController {
         GIDSignIn.sharedInstance.signIn(with: config, presenting: self) { [unowned self] user, error in
 
             if let error = error {
-                
                 showAlert(title: "Авторизация", message: "Не удалось авторизоваться, попробуйте снова")
                 return
             }
-
             guard
                 let authentication = user?.authentication,
                 let idToken = authentication.idToken
             else {
-                
                 showAlert(title: "Авторизация", message: "Не удалось авторизоваться, попробуйте снова")
                 return
             }
