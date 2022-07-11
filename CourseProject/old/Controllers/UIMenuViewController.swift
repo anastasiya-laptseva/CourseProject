@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MenuViewController: UIViewController {
+class UIMenuViewController: UIViewController {
 
     var tableView: UITableView!
 
@@ -36,7 +36,7 @@ class MenuViewController: UIViewController {
     }
 }
 
-extension MenuViewController: UITableViewDelegate, UITableViewDataSource {
+extension UIMenuViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
     }

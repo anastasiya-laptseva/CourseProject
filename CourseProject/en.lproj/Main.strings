@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Расклады"; ObjectID = "2vY-Ti-g0p"; */
+"2vY-Ti-g0p.text" = "Расклады";
+
+/* Class = "UILabel"; text = "Заметки"; ObjectID = "4bQ-Dn-Tgi"; */
+"4bQ-Dn-Tgi.text" = "Заметки";
+
+/* Class = "UILabel"; text = "Расклады"; ObjectID = "Qha-Kr-GMz"; */
+"Qha-Kr-GMz.text" = "Расклады";
+
+/* Class = "UIButton"; configuration.title = "Авторизация"; ObjectID = "hSg-Gg-tNc"; */
+"hSg-Gg-tNc.configuration.title" = "Авторизация";
+
+/* Class = "UIButton"; normalTitle = "Авторизация"; ObjectID = "hSg-Gg-tNc"; */
+"hSg-Gg-tNc.normalTitle" = "Авторизация";
+
+/* Class = "UILabel"; text = "Описание"; ObjectID = "l32-dh-iI4"; */
+"l32-dh-iI4.text" = "Описание";
+
+/* Class = "UILabel"; text = "Сохранения"; ObjectID = "ue5-Xg-pg0"; */
+"ue5-Xg-pg0.text" = "Сохранения";
+
+/* Class = "UILabel"; text = "Настройки"; ObjectID = "yx3-cP-jw5"; */
+"yx3-cP-jw5.text" = "Настройки";
