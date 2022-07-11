@@ -16,6 +16,7 @@
 		0EA64CBB287B53DB003C4842 /* PreservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA64CBA287B53DB003C4842 /* PreservationViewController.swift */; };
 		0EA64CBD287C2046003C4842 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA64CBC287C2046003C4842 /* SettingsViewController.swift */; };
 		0EA64CBF287C2256003C4842 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA64CBE287C2256003C4842 /* NotesViewController.swift */; };
+		0EA64CC4287CC816003C4842 /* desk1 in Resources */ = {isa = PBXBuildFile; fileRef = 0EA64CC3287CC816003C4842 /* desk1 */; };
 		457CCD1028773EDB00FCCFD7 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CCD0728773EDB00FCCFD7 /* AuthViewController.swift */; };
 		457CCD1128773EDB00FCCFD7 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CCD0828773EDB00FCCFD7 /* AuthModel.swift */; };
 		457CCD1228773EDB00FCCFD7 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CCD0A28773EDB00FCCFD7 /* MenuTableViewCell.swift */; };
@@ -40,6 +41,7 @@
 		0EA64CBA287B53DB003C4842 /* PreservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreservationViewController.swift; sourceTree = "<group>"; };
 		0EA64CBC287C2046003C4842 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0EA64CBE287C2256003C4842 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		0EA64CC3287CC816003C4842 /* desk1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = desk1; sourceTree = "<group>"; };
 		33DC17C0E2ADC3B8005099BB /* Pods-CourseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseProject.debug.xcconfig"; path = "Target Support Files/Pods-CourseProject/Pods-CourseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		457CCD0728773EDB00FCCFD7 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		457CCD0828773EDB00FCCFD7 /* AuthModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		0E831C9328675DA400347558 /* CourseProject */ = {
 			isa = PBXGroup;
 			children = (
+				0EA64CC1287CC711003C4842 /* MapsDescription */,
 				457CCD1828773F9D00FCCFD7 /* Localizations */,
 				457CCD0D28773EDB00FCCFD7 /* Extentions */,
 				457CCD0528773EDB00FCCFD7 /* Screens */,
@@ -112,6 +115,14 @@
 				0EA64CBC287C2046003C4842 /* SettingsViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0EA64CC1287CC711003C4842 /* MapsDescription */ = {
+			isa = PBXGroup;
+			children = (
+				0EA64CC3287CC816003C4842 /* desk1 */,
+			);
+			path = MapsDescription;
 			sourceTree = "<group>";
 		};
 		457CCD0528773EDB00FCCFD7 /* Screens */ = {
@@ -240,6 +251,7 @@
 				4591BA232877420300DF1C70 /* Localizable.strings in Resources */,
 				0E831CA428675DA600347558 /* LaunchScreen.storyboard in Resources */,
 				45ACF217286A2FB30007EDC0 /* GoogleService-Info.plist in Resources */,
+				0EA64CC4287CC816003C4842 /* desk1 in Resources */,
 				0E831CA128675DA600347558 /* Assets.xcassets in Resources */,
 				0E831C9C28675DA400347558 /* Main.storyboard in Resources */,
 			);

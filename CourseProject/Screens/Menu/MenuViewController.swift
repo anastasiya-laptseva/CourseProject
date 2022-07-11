@@ -9,6 +9,7 @@ import UIKit
 
 class MenuViewController: UIViewController {
 
+    @IBOutlet weak var buttonMapOfDay: UIButton!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var leftMenuConstraint: NSLayoutConstraint!
     
@@ -18,6 +19,8 @@ class MenuViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        buttonMapOfDay.setTitle(getLocale(key: "buttomMapOfDay"), for: .normal) 
         
         tableView.dataSource = self
         tableView.delegate = self
@@ -34,6 +37,7 @@ class MenuViewController: UIViewController {
         }
     }
     @IBAction func tapChangedMap(_ sender: Any) {
+        showAlert(title: "Hello", message: "hi")
     }
     
 }
