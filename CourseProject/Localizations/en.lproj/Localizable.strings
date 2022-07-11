@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  CourseProject
+
+  Created by Anastasiya Laptseva on 7.07.22.
+  
+*/
+
+"tarotSpreadsMenu" = "Tarot Spreads";
+"descriptionMenu" = "Description";
+"preservationMenu" = "Preservation";
+"notesMenu" = "Notes";
+"settingsMenu" = "Settings";
