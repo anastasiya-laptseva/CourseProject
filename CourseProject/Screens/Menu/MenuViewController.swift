@@ -32,7 +32,7 @@ class MenuViewController: UIViewController {
         setCardOfDay()
         
         //TODO: Check card
-        //numberCardsDay = 3
+        numberCardsDay = 0
         
         var langKey = "en"
         if(Locale.current.languageCode == "ru"){
@@ -54,9 +54,8 @@ class MenuViewController: UIViewController {
     }
     @IBAction func tapChangedMap(_ sender: Any) {
         let key = menuCardsDay.cards?[numberCardsDay].description ?? ""
-        let title = getLocale(key: "\(key)_title")
         let description = getLocale(key: "\(key)_description")
-        showAlert(title: title, message: description)
+        showAlert(title: "", message: description)
     }
     
 }
