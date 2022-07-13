@@ -13,6 +13,8 @@
 		0E831C9F28675DA400347558 /* CourseProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E831C9D28675DA400347558 /* CourseProject.xcdatamodeld */; };
 		0E831CA128675DA600347558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E831CA028675DA600347558 /* Assets.xcassets */; };
 		0E831CA428675DA600347558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E831CA228675DA600347558 /* LaunchScreen.storyboard */; };
+		0E9B2A17287F4C7C00BF73C2 /* SettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9B2A16287F4C7C00BF73C2 /* SettingModel.swift */; };
+		0E9B2A19287F4FE300BF73C2 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9B2A18287F4FE300BF73C2 /* SettingTableViewCell.swift */; };
 		0EA64CBB287B53DB003C4842 /* PreservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA64CBA287B53DB003C4842 /* PreservationViewController.swift */; };
 		0EA64CBD287C2046003C4842 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA64CBC287C2046003C4842 /* SettingsViewController.swift */; };
 		0EA64CBF287C2256003C4842 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA64CBE287C2256003C4842 /* NotesViewController.swift */; };
@@ -39,6 +41,8 @@
 		0E831CA028675DA600347558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E831CA328675DA600347558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E831CA528675DA600347558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E9B2A16287F4C7C00BF73C2 /* SettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingModel.swift; sourceTree = "<group>"; };
+		0E9B2A18287F4FE300BF73C2 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 		0EA64CBA287B53DB003C4842 /* PreservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreservationViewController.swift; sourceTree = "<group>"; };
 		0EA64CBC287C2046003C4842 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0EA64CBE287C2256003C4842 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 				457CCD1828773F9D00FCCFD7 /* Localizations */,
 				457CCD0D28773EDB00FCCFD7 /* Extentions */,
 				457CCD0528773EDB00FCCFD7 /* Screens */,
+				0E9B2A15287F4C4800BF73C2 /* Models */,
 				0EA64CC0287C2345003C4842 /* Controllers */,
 				0E831C9428675DA400347558 /* AppDelegate.swift */,
 				0E831C9628675DA400347558 /* SceneDelegate.swift */,
@@ -107,6 +112,15 @@
 				0E831C9D28675DA400347558 /* CourseProject.xcdatamodeld */,
 			);
 			path = CourseProject;
+			sourceTree = "<group>";
+		};
+		0E9B2A15287F4C4800BF73C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0E9B2A16287F4C7C00BF73C2 /* SettingModel.swift */,
+				0E9B2A18287F4FE300BF73C2 /* SettingTableViewCell.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		0EA64CC0287C2345003C4842 /* Controllers */ = {
@@ -314,6 +328,8 @@
 				457CCD1528773EDB00FCCFD7 /* UIViewController+Localization.swift in Sources */,
 				0E831C9528675DA400347558 /* AppDelegate.swift in Sources */,
 				457CCD1228773EDB00FCCFD7 /* MenuTableViewCell.swift in Sources */,
+				0E9B2A17287F4C7C00BF73C2 /* SettingModel.swift in Sources */,
+				0E9B2A19287F4FE300BF73C2 /* SettingTableViewCell.swift in Sources */,
 				457CCD1328773EDB00FCCFD7 /* MenuModel.swift in Sources */,
 				0E831C9F28675DA400347558 /* CourseProject.xcdatamodeld in Sources */,
 				0EA64CBF287C2256003C4842 /* NotesViewController.swift in Sources */,
