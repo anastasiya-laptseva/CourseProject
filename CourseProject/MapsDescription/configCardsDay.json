@@ -1,18 +1,91 @@
 [
+  
   {
-    "description": "towerCard",
-    "image": "towerCard"
+    "description": "foolCard",
+    "image": "fool"
   },
   {
-    "description": "lovesCard",
-    "image": "lovesCard"
+    "description": "magicianCard",
+    "image": "magician"
   },
   {
     "description": "highpriestessCard",
     "image": "highpriestessCard"
   },
   {
-    "description": "foolCard",
-    "image": "fool"
+    "description": "empressCard",
+    "image": "empressCard"
+  },
+  {
+    "description": "emperorCard",
+    "image": "emperorCard"
+  },
+  {
+    "description": "hierophantCard",
+    "image": "hierophantCard"
+  },
+  {
+    "description": "lovesCard",
+    "image": "lovesCard"
+  },
+  {
+    "description": "chariotCard",
+    "image": "chariotCard"
+  },
+  {
+    "description": "strengthCard",
+    "image": "strengthCard"
+  },
+  {
+    "description": "hermitCard",
+    "image": "hermitCard"
+  },
+  {
+    "description": "wheelOfFortuneCard",
+    "image": "wheelOfFortuneCard"
+  },
+  {
+    "description": "justiceCard",
+    "image": "justiceCard"
+  },
+  {
+    "description": "hangedCard",
+    "image": "hangedCard"
+  },
+  {
+    "description": "deathCard",
+    "image": "deathCard"
+  },
+  {
+    "description": "moderationCard",
+    "image": "moderationCard"
+  },
+  {
+    "description": "devilCard",
+    "image": "devilCard"
+  },
+  {
+    "description": "towerCard",
+    "image": "towerCard"
+  },
+  {
+    "description": "starCard",
+    "image": "starCard"
+  },
+  {
+    "description": "moonCard",
+    "image": "moonCard"
+  },
+  {
+    "description": "sunCard",
+    "image": "sunCard"
+  },
+  {
+    "description": "doomsdayCard",
+    "image": "doomsdayCard"
+  },
+  {
+    "description": "worldCard",
+    "image": "worldCard"
   }
 ]

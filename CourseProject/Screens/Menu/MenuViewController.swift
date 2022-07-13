@@ -32,7 +32,7 @@ class MenuViewController: UIViewController {
         setCardOfDay()
         
         //TODO: Check card
-        numberCardsDay = 0
+        numberCardsDay = 1
         
         var langKey = "en"
         if(Locale.current.languageCode == "ru"){
