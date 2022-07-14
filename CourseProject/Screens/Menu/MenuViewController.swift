@@ -30,6 +30,10 @@ class MenuViewController: UIViewController {
         tableView.delegate = self
         
         setCardOfDay()
+        
+        //TODO: Check card
+        //numberCardsDay = 3
+        
         var langKey = "en"
         if(Locale.current.languageCode == "ru"){
             langKey = "ru"

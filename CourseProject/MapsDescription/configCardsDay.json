@@ -10,5 +10,9 @@
   {
     "description": "highpriestessCard",
     "image": "highpriestessCard"
+  },
+  {
+    "description": "foolCard",
+    "image": "fool"
   }
 ]
