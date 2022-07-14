@@ -25,7 +25,6 @@
 		457CCD1628773EDB00FCCFD7 /* UIViewController+AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CCD0F28773EDB00FCCFD7 /* UIViewController+AlertViewController.swift */; };
 		4591BA232877420300DF1C70 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4591BA252877420300DF1C70 /* Localizable.strings */; };
 		45ACF217286A2FB30007EDC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45ACF216286A2FB30007EDC0 /* GoogleService-Info.plist */; };
-		45F3A8E8287E0D8D0077B185 /* LocalizableCards.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45F3A8EA287E0D8D0077B185 /* LocalizableCards.strings */; };
 		45F3A8ED287E0E850077B185 /* MenuCardsDayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F3A8EC287E0E850077B185 /* MenuCardsDayModel.swift */; };
 		45F3A8EF287E11C00077B185 /* configCardsDay.json in Resources */ = {isa = PBXBuildFile; fileRef = 45F3A8EE287E11C00077B185 /* configCardsDay.json */; };
 		93E44A65717BF7FA05D094C4 /* Pods_CourseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21192CC9470CBE9F9D0C4A8 /* Pods_CourseProject.framework */; };
@@ -54,8 +53,6 @@
 		4591BA242877420300DF1C70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4591BA262877420400DF1C70 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		45ACF216286A2FB30007EDC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		45F3A8E9287E0D8D0077B185 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LocalizableCards.strings; sourceTree = "<group>"; };
-		45F3A8EB287E0D8E0077B185 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LocalizableCards.strings; sourceTree = "<group>"; };
 		45F3A8EC287E0E850077B185 /* MenuCardsDayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCardsDayModel.swift; sourceTree = "<group>"; };
 		45F3A8EE287E11C00077B185 /* configCardsDay.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = configCardsDay.json; sourceTree = "<group>"; };
 		4FFB0868C1A8398533A14D42 /* Pods-CourseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseProject.release.xcconfig"; path = "Target Support Files/Pods-CourseProject/Pods-CourseProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,7 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				45F3A8EE287E11C00077B185 /* configCardsDay.json */,
-				45F3A8EA287E0D8D0077B185 /* LocalizableCards.strings */,
 			);
 			path = MapsDescription;
 			sourceTree = "<group>";
@@ -259,7 +255,6 @@
 				4591BA232877420300DF1C70 /* Localizable.strings in Resources */,
 				0E831CA428675DA600347558 /* LaunchScreen.storyboard in Resources */,
 				45ACF217286A2FB30007EDC0 /* GoogleService-Info.plist in Resources */,
-				45F3A8E8287E0D8D0077B185 /* LocalizableCards.strings in Resources */,
 				0E831CA128675DA600347558 /* Assets.xcassets in Resources */,
 				0E831C9C28675DA400347558 /* Main.storyboard in Resources */,
 			);
@@ -357,15 +352,6 @@
 				4591BA262877420400DF1C70 /* ru */,
 			);
 			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		45F3A8EA287E0D8D0077B185 /* LocalizableCards.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				45F3A8E9287E0D8D0077B185 /* en */,
-				45F3A8EB287E0D8E0077B185 /* ru */,
-			);
-			name = LocalizableCards.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

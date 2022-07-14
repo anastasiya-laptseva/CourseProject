@@ -13,3 +13,12 @@
 "settingsMenu" = "Настройки";
 
 "buttomMapOfDay" = "Карта дня";
+
+/*
+ Cards
+ */
+"towerCard_description" = "День станет решающим, важным, трансформационным и будет влиять на последующую жизнь. Любая потеря обернется благоприятными возможностями и достижением новых целей.";
+"lovesCard_description" = "RU lovesCard_description";
+"highpriestessCard_description" = "RU highpriestessCard_description";
+"foolCard_description" = "RU foolCard_description";
+
