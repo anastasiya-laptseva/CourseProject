@@ -19,6 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         window = UIWindow()
         FirebaseApp.configure()
+        let appLang = UserDefaults.standard.string(forKey: "app_lang") ?? "ru"
+        Bundle.setLanguage(lang: appLang)
         return true
     }
     

@@ -13,11 +13,12 @@
 		0E831C9F28675DA400347558 /* CourseProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E831C9D28675DA400347558 /* CourseProject.xcdatamodeld */; };
 		0E831CA128675DA600347558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E831CA028675DA600347558 /* Assets.xcassets */; };
 		0E831CA428675DA600347558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E831CA228675DA600347558 /* LaunchScreen.storyboard */; };
-		0E9B2A17287F4C7C00BF73C2 /* SettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9B2A16287F4C7C00BF73C2 /* SettingModel.swift */; };
-		0E9B2A19287F4FE300BF73C2 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9B2A18287F4FE300BF73C2 /* SettingTableViewCell.swift */; };
 		0EA64CBB287B53DB003C4842 /* PreservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA64CBA287B53DB003C4842 /* PreservationViewController.swift */; };
-		0EA64CBD287C2046003C4842 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA64CBC287C2046003C4842 /* SettingsViewController.swift */; };
 		0EA64CBF287C2256003C4842 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA64CBE287C2256003C4842 /* NotesViewController.swift */; };
+		450A620E2880C0DC0033277A /* ThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A620A2880C0DC0033277A /* ThemeModel.swift */; };
+		450A620F2880C0DC0033277A /* LanguageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A620B2880C0DC0033277A /* LanguageModel.swift */; };
+		450A62102880C0DC0033277A /* SettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A620C2880C0DC0033277A /* SettingModel.swift */; };
+		450A62112880C0DC0033277A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A620D2880C0DC0033277A /* SettingsViewController.swift */; };
 		457CCD1028773EDB00FCCFD7 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CCD0728773EDB00FCCFD7 /* AuthViewController.swift */; };
 		457CCD1128773EDB00FCCFD7 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CCD0828773EDB00FCCFD7 /* AuthModel.swift */; };
 		457CCD1228773EDB00FCCFD7 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CCD0A28773EDB00FCCFD7 /* MenuTableViewCell.swift */; };
@@ -27,6 +28,8 @@
 		457CCD1628773EDB00FCCFD7 /* UIViewController+AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CCD0F28773EDB00FCCFD7 /* UIViewController+AlertViewController.swift */; };
 		4591BA232877420300DF1C70 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4591BA252877420300DF1C70 /* Localizable.strings */; };
 		45ACF217286A2FB30007EDC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45ACF216286A2FB30007EDC0 /* GoogleService-Info.plist */; };
+		45E62AF12880CB5B00939699 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E62AF02880CB5B00939699 /* Bundle.swift */; };
+		45E62AF82880D85A00939699 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E62AF72880D85A00939699 /* String.swift */; };
 		45F3A8ED287E0E850077B185 /* MenuCardsDayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F3A8EC287E0E850077B185 /* MenuCardsDayModel.swift */; };
 		45F3A8EF287E11C00077B185 /* configCardsDay.json in Resources */ = {isa = PBXBuildFile; fileRef = 45F3A8EE287E11C00077B185 /* configCardsDay.json */; };
 		93E44A65717BF7FA05D094C4 /* Pods_CourseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21192CC9470CBE9F9D0C4A8 /* Pods_CourseProject.framework */; };
@@ -41,12 +44,13 @@
 		0E831CA028675DA600347558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E831CA328675DA600347558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E831CA528675DA600347558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E9B2A16287F4C7C00BF73C2 /* SettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingModel.swift; sourceTree = "<group>"; };
-		0E9B2A18287F4FE300BF73C2 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 		0EA64CBA287B53DB003C4842 /* PreservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreservationViewController.swift; sourceTree = "<group>"; };
-		0EA64CBC287C2046003C4842 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0EA64CBE287C2256003C4842 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		33DC17C0E2ADC3B8005099BB /* Pods-CourseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseProject.debug.xcconfig"; path = "Target Support Files/Pods-CourseProject/Pods-CourseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		450A620A2880C0DC0033277A /* ThemeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeModel.swift; sourceTree = "<group>"; };
+		450A620B2880C0DC0033277A /* LanguageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageModel.swift; sourceTree = "<group>"; };
+		450A620C2880C0DC0033277A /* SettingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingModel.swift; sourceTree = "<group>"; };
+		450A620D2880C0DC0033277A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		457CCD0728773EDB00FCCFD7 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		457CCD0828773EDB00FCCFD7 /* AuthModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
 		457CCD0A28773EDB00FCCFD7 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 		4591BA242877420300DF1C70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4591BA262877420400DF1C70 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		45ACF216286A2FB30007EDC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		45E62AF02880CB5B00939699 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		45E62AF72880D85A00939699 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		45F3A8EC287E0E850077B185 /* MenuCardsDayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCardsDayModel.swift; sourceTree = "<group>"; };
 		45F3A8EE287E11C00077B185 /* configCardsDay.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = configCardsDay.json; sourceTree = "<group>"; };
 		4FFB0868C1A8398533A14D42 /* Pods-CourseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseProject.release.xcconfig"; path = "Target Support Files/Pods-CourseProject/Pods-CourseProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +102,7 @@
 		0E831C9328675DA400347558 /* CourseProject */ = {
 			isa = PBXGroup;
 			children = (
+				45E62AF22880D00800939699 /* Helpers */,
 				0EA64CC1287CC711003C4842 /* MapsDescription */,
 				457CCD1828773F9D00FCCFD7 /* Localizations */,
 				457CCD0D28773EDB00FCCFD7 /* Extentions */,
@@ -117,8 +124,6 @@
 		0E9B2A15287F4C4800BF73C2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				0E9B2A16287F4C7C00BF73C2 /* SettingModel.swift */,
-				0E9B2A18287F4FE300BF73C2 /* SettingTableViewCell.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -128,7 +133,6 @@
 			children = (
 				0EA64CBA287B53DB003C4842 /* PreservationViewController.swift */,
 				0EA64CBE287C2256003C4842 /* NotesViewController.swift */,
-				0EA64CBC287C2046003C4842 /* SettingsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -141,9 +145,29 @@
 			path = MapsDescription;
 			sourceTree = "<group>";
 		};
+		450A62082880C0DC0033277A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				450A62092880C0DC0033277A /* Models */,
+				450A620D2880C0DC0033277A /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		450A62092880C0DC0033277A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				450A620A2880C0DC0033277A /* ThemeModel.swift */,
+				450A620B2880C0DC0033277A /* LanguageModel.swift */,
+				450A620C2880C0DC0033277A /* SettingModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		457CCD0528773EDB00FCCFD7 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				450A62082880C0DC0033277A /* Settings */,
 				457CCD0628773EDB00FCCFD7 /* Auth */,
 				457CCD0928773EDB00FCCFD7 /* Menu */,
 			);
@@ -175,6 +199,8 @@
 			children = (
 				457CCD0E28773EDB00FCCFD7 /* UIViewController+Localization.swift */,
 				457CCD0F28773EDB00FCCFD7 /* UIViewController+AlertViewController.swift */,
+				45E62AF02880CB5B00939699 /* Bundle.swift */,
+				45E62AF72880D85A00939699 /* String.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -185,6 +211,13 @@
 				4591BA252877420300DF1C70 /* Localizable.strings */,
 			);
 			path = Localizations;
+			sourceTree = "<group>";
+		};
+		45E62AF22880D00800939699 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		7801C1E8A48F609280D09800 /* Pods */ = {
@@ -324,21 +357,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EA64CBB287B53DB003C4842 /* PreservationViewController.swift in Sources */,
+				45E62AF12880CB5B00939699 /* Bundle.swift in Sources */,
 				457CCD1028773EDB00FCCFD7 /* AuthViewController.swift in Sources */,
 				457CCD1528773EDB00FCCFD7 /* UIViewController+Localization.swift in Sources */,
 				0E831C9528675DA400347558 /* AppDelegate.swift in Sources */,
+				450A620F2880C0DC0033277A /* LanguageModel.swift in Sources */,
 				457CCD1228773EDB00FCCFD7 /* MenuTableViewCell.swift in Sources */,
-				0E9B2A17287F4C7C00BF73C2 /* SettingModel.swift in Sources */,
-				0E9B2A19287F4FE300BF73C2 /* SettingTableViewCell.swift in Sources */,
 				457CCD1328773EDB00FCCFD7 /* MenuModel.swift in Sources */,
 				0E831C9F28675DA400347558 /* CourseProject.xcdatamodeld in Sources */,
+				450A620E2880C0DC0033277A /* ThemeModel.swift in Sources */,
 				0EA64CBF287C2256003C4842 /* NotesViewController.swift in Sources */,
 				0E831C9728675DA400347558 /* SceneDelegate.swift in Sources */,
 				45F3A8ED287E0E850077B185 /* MenuCardsDayModel.swift in Sources */,
+				450A62112880C0DC0033277A /* SettingsViewController.swift in Sources */,
+				450A62102880C0DC0033277A /* SettingModel.swift in Sources */,
 				457CCD1128773EDB00FCCFD7 /* AuthModel.swift in Sources */,
+				45E62AF82880D85A00939699 /* String.swift in Sources */,
 				457CCD1628773EDB00FCCFD7 /* UIViewController+AlertViewController.swift in Sources */,
 				457CCD1428773EDB00FCCFD7 /* MenuViewController.swift in Sources */,
-				0EA64CBD287C2046003C4842 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

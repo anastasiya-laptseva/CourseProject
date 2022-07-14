@@ -8,7 +8,8 @@
 import UIKit
 
 class MenuViewController: UIViewController {
-
+    @IBOutlet weak var debugNextButton: UIButton!
+    
     @IBOutlet weak var imageCard: UIImageView!
     @IBOutlet weak var buttonMapOfDay: UIButton!
     @IBOutlet weak var tableView: UITableView!
@@ -32,14 +33,14 @@ class MenuViewController: UIViewController {
         setCardOfDay()
         
         //TODO: Check card
-        numberCardsDay = 1
+        //numberCardsDay = 1
         
-        var langKey = "en"
-        if(Locale.current.languageCode == "ru"){
-            langKey = "ru"
-        }
-        let imageName = "\(menuCardsDay.cards?[numberCardsDay].image ?? "")_\(langKey)"
-        imageCard.image = UIImage(named: imageName)
+        setupImage()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        buttonMapOfDay.setTitle(getLocale(key: "buttomMapOfDay"), for: .normal) 
+        tableView.reloadData()
     }
 
     @IBAction func onMenuClick(_ sender: Any) {
@@ -56,6 +57,28 @@ class MenuViewController: UIViewController {
         let key = menuCardsDay.cards?[numberCardsDay].description ?? ""
         let description = getLocale(key: "\(key)_description")
         showAlert(title: "", message: description)
+    }
+    
+    //MARK: Autotesting
+    @IBAction func debugNextClick(_ sender: Any) {
+        print("----------Autotest: Begin Image and Description Test---------- ")
+        guard let cards = menuCardsDay.cards else {
+            print("Autotest: No array")
+            return
+        }
+        for number in 0..<cards.count {
+            let currentCard = cards[number]
+            if getImage(langKey: "en", numberKey: number) == nil {
+                print("Autotest: EN No image \(currentCard.image)")
+            }
+            if getImage(langKey: "ru", numberKey: number) == nil {
+                print("Autotest: RU No image \(currentCard.image)")
+            }
+            if getLocale(key: currentCard.description).isEmpty {
+                print("Autotest: No locale \(currentCard.description)")
+            }
+        }
+        print("----------Autotest: End Image and Description Test---------- ")
     }
     
 }
@@ -84,6 +107,19 @@ extension MenuViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func removeAllData() {
+    }
+    
+    func getImage(langKey: String, numberKey: Int) -> UIImage? {
+        let imageName = "\(menuCardsDay.cards?[numberKey].image ?? "")_\(langKey)"
+        return UIImage(named: imageName)
+    }
+    
+    func setupImage() {
+        var langKey = "en"
+        if(Locale.current.languageCode == "ru"){
+            langKey = "ru"
+        }
+        imageCard.image = getImage(langKey: langKey, numberKey: numberCardsDay)
     }
     
     func setCardOfDay() {
