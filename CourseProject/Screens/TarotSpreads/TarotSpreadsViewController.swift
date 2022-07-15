@@ -16,16 +16,17 @@ class TarotSpreadsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: Self.cellIdentifier)
+        
         guard let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout else {
             return
         }
-        layout.itemSize = CGSize(width: 40.0, height: 40.0)
+        layout.estimatedItemSize = CGSize(width: 80.0, height: 40.0)
+//        layout.itemSize = CGSize(width: 100.0, height: 50.0)
+//        layout.minimumInteritemSpacing = 100.0
         
         collectionView.delegate = self
         collectionView.dataSource = self
-        
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: Self.cellIdentifier)
-
     }
 }
 
@@ -42,9 +43,10 @@ extension TarotSpreadsViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: Self.cellIdentifier, for: indexPath)
         var configuration = UIListContentConfiguration.cell()
-        configuration.text = "Item \(indexPath.item)"
+        let tarotSpreadModel = TarotSpreadModel(rawValue: indexPath.row)
+//        configuration.text = "Item \(indexPath.item)"
+        configuration.text = getLocale(key: tarotSpreadModel?.description ?? "")
         cell.contentConfiguration = configuration
-        
         return cell
     }
 }

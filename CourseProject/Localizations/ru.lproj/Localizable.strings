@@ -15,6 +15,16 @@
 "buttomMapOfDay" = "Карта дня";
 
 /*
+ TarotSpreads
+ */
+"onEveryDaySpread" = "На каждый день";
+"lovelySpread" = "Вокзал на двоих(расклад на любовь)";
+"situationSpread" = "Кельтский крест(разбор конкретной ситуации)";
+"healthySpread" = "Расклад на здоровье";
+"financialSpread" = "Полная чаша(расклад на финансы)";
+"personalGrowthSpread" = "Путь(личностный рост)";
+"choiceSpread" = "Выбор";
+/*
  Settings
  */
 

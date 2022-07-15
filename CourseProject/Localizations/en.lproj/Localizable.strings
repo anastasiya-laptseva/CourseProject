@@ -15,6 +15,17 @@
 "buttomMapOfDay" = "Map of the day";
 
 /*
+ TarotSpreads
+ */
+"onEveryDaySpread" = "On every day";
+"lovelySpread" = "Station for two(layout for love)";
+"situationSpread" = "Celtic cross(analysis of a specific situation)";
+"healthySpread" = "Alignment for health";
+"financialSpread" = "Full bowl (layout for finance)";
+"personalGrowthSpread" = "Path (personal growth)";
+"choiceSpread" = "Сhoose";
+
+/*
  Settings
  */
 
