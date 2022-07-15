@@ -20,6 +20,10 @@ class VideoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tableView.backgroundColor = .clear
+//        cell.backgroundColor = .clear
+//        tableView.tableFooterView = UIView()
+        
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: Self.cellIdentifier)
         
         tableView.delegate = self

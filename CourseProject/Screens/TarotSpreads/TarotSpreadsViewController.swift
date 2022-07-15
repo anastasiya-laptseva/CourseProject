@@ -16,6 +16,8 @@ class TarotSpreadsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        collectionView.backgroundColor = UIColor.clear.withAlphaComponent(0)
+        
         collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: Self.cellIdentifier)
         
         guard let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout else {

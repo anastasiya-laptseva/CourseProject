@@ -10,11 +10,14 @@ import UIKit
 class MapsCollectionViewController: UIViewController {
     
     static let cellIdentifier = "cell"
+//    var images = [UIImage]()
     
     @IBOutlet var collectionView: UICollectionView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        collectionView.backgroundColor = UIColor.clear.withAlphaComponent(0)
         
         collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: Self.cellIdentifier)
         
@@ -27,6 +30,11 @@ class MapsCollectionViewController: UIViewController {
         
         collectionView.delegate = self
         collectionView.dataSource = self
+        
+//        for i in 0...22 {
+//            let image = UIImage(named: "\(i)_en")!
+//            images.append(image)
+//        }
     }
 }
 
