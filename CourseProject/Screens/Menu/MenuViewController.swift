@@ -39,7 +39,8 @@ class MenuViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        buttonMapOfDay.setTitle(getLocale(key: "buttomMapOfDay"), for: .normal) 
+        buttonMapOfDay.setTitle(getLocale(key: "buttomMapOfDay"), for: .normal)
+        setupImage()
         tableView.reloadData()
     }
 
@@ -115,8 +116,9 @@ extension MenuViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func setupImage() {
+        let appLang = UserDefaults.standard.string(forKey: "app_lang") ?? "ru"
         var langKey = "en"
-        if(Locale.current.languageCode == "ru"){
+        if(appLang == "ru"){
             langKey = "ru"
         }
         imageCard.image = getImage(langKey: langKey, numberKey: numberCardsDay)
