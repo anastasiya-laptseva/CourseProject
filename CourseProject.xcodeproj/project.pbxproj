@@ -16,7 +16,6 @@
 		0EA64CBB287B53DB003C4842 /* PreservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA64CBA287B53DB003C4842 /* PreservationViewController.swift */; };
 		0EA64CBD287C2046003C4842 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA64CBC287C2046003C4842 /* SettingsViewController.swift */; };
 		0EA64CBF287C2256003C4842 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA64CBE287C2256003C4842 /* NotesViewController.swift */; };
-		0EA64CC4287CC816003C4842 /* desk1 in Resources */ = {isa = PBXBuildFile; fileRef = 0EA64CC3287CC816003C4842 /* desk1 */; };
 		457CCD1028773EDB00FCCFD7 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CCD0728773EDB00FCCFD7 /* AuthViewController.swift */; };
 		457CCD1128773EDB00FCCFD7 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CCD0828773EDB00FCCFD7 /* AuthModel.swift */; };
 		457CCD1228773EDB00FCCFD7 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CCD0A28773EDB00FCCFD7 /* MenuTableViewCell.swift */; };
@@ -26,6 +25,9 @@
 		457CCD1628773EDB00FCCFD7 /* UIViewController+AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CCD0F28773EDB00FCCFD7 /* UIViewController+AlertViewController.swift */; };
 		4591BA232877420300DF1C70 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4591BA252877420300DF1C70 /* Localizable.strings */; };
 		45ACF217286A2FB30007EDC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45ACF216286A2FB30007EDC0 /* GoogleService-Info.plist */; };
+		45F3A8E8287E0D8D0077B185 /* LocalizableCards.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45F3A8EA287E0D8D0077B185 /* LocalizableCards.strings */; };
+		45F3A8ED287E0E850077B185 /* MenuCardsDayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F3A8EC287E0E850077B185 /* MenuCardsDayModel.swift */; };
+		45F3A8EF287E11C00077B185 /* configCardsDay.json in Resources */ = {isa = PBXBuildFile; fileRef = 45F3A8EE287E11C00077B185 /* configCardsDay.json */; };
 		93E44A65717BF7FA05D094C4 /* Pods_CourseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21192CC9470CBE9F9D0C4A8 /* Pods_CourseProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +43,6 @@
 		0EA64CBA287B53DB003C4842 /* PreservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreservationViewController.swift; sourceTree = "<group>"; };
 		0EA64CBC287C2046003C4842 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0EA64CBE287C2256003C4842 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
-		0EA64CC3287CC816003C4842 /* desk1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = desk1; sourceTree = "<group>"; };
 		33DC17C0E2ADC3B8005099BB /* Pods-CourseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseProject.debug.xcconfig"; path = "Target Support Files/Pods-CourseProject/Pods-CourseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		457CCD0728773EDB00FCCFD7 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		457CCD0828773EDB00FCCFD7 /* AuthModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
@@ -53,6 +54,10 @@
 		4591BA242877420300DF1C70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4591BA262877420400DF1C70 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		45ACF216286A2FB30007EDC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		45F3A8E9287E0D8D0077B185 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LocalizableCards.strings; sourceTree = "<group>"; };
+		45F3A8EB287E0D8E0077B185 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LocalizableCards.strings; sourceTree = "<group>"; };
+		45F3A8EC287E0E850077B185 /* MenuCardsDayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCardsDayModel.swift; sourceTree = "<group>"; };
+		45F3A8EE287E11C00077B185 /* configCardsDay.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = configCardsDay.json; sourceTree = "<group>"; };
 		4FFB0868C1A8398533A14D42 /* Pods-CourseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseProject.release.xcconfig"; path = "Target Support Files/Pods-CourseProject/Pods-CourseProject.release.xcconfig"; sourceTree = "<group>"; };
 		D21192CC9470CBE9F9D0C4A8 /* Pods_CourseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CourseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -120,7 +125,8 @@
 		0EA64CC1287CC711003C4842 /* MapsDescription */ = {
 			isa = PBXGroup;
 			children = (
-				0EA64CC3287CC816003C4842 /* desk1 */,
+				45F3A8EE287E11C00077B185 /* configCardsDay.json */,
+				45F3A8EA287E0D8D0077B185 /* LocalizableCards.strings */,
 			);
 			path = MapsDescription;
 			sourceTree = "<group>";
@@ -149,6 +155,7 @@
 				457CCD0A28773EDB00FCCFD7 /* MenuTableViewCell.swift */,
 				457CCD0B28773EDB00FCCFD7 /* MenuModel.swift */,
 				457CCD0C28773EDB00FCCFD7 /* MenuViewController.swift */,
+				45F3A8EC287E0E850077B185 /* MenuCardsDayModel.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -248,10 +255,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45F3A8EF287E11C00077B185 /* configCardsDay.json in Resources */,
 				4591BA232877420300DF1C70 /* Localizable.strings in Resources */,
 				0E831CA428675DA600347558 /* LaunchScreen.storyboard in Resources */,
 				45ACF217286A2FB30007EDC0 /* GoogleService-Info.plist in Resources */,
-				0EA64CC4287CC816003C4842 /* desk1 in Resources */,
+				45F3A8E8287E0D8D0077B185 /* LocalizableCards.strings in Resources */,
 				0E831CA128675DA600347558 /* Assets.xcassets in Resources */,
 				0E831C9C28675DA400347558 /* Main.storyboard in Resources */,
 			);
@@ -315,6 +323,7 @@
 				0E831C9F28675DA400347558 /* CourseProject.xcdatamodeld in Sources */,
 				0EA64CBF287C2256003C4842 /* NotesViewController.swift in Sources */,
 				0E831C9728675DA400347558 /* SceneDelegate.swift in Sources */,
+				45F3A8ED287E0E850077B185 /* MenuCardsDayModel.swift in Sources */,
 				457CCD1128773EDB00FCCFD7 /* AuthModel.swift in Sources */,
 				457CCD1628773EDB00FCCFD7 /* UIViewController+AlertViewController.swift in Sources */,
 				457CCD1428773EDB00FCCFD7 /* MenuViewController.swift in Sources */,
@@ -348,6 +357,15 @@
 				4591BA262877420400DF1C70 /* ru */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		45F3A8EA287E0D8D0077B185 /* LocalizableCards.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45F3A8E9287E0D8D0077B185 /* en */,
+				45F3A8EB287E0D8E0077B185 /* ru */,
+			);
+			name = LocalizableCards.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

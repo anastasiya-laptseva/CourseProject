@@ -1,0 +1,13 @@
+/* 
+  LocalizableCards.strings
+  CourseProject
+
+  Created by Anastasiya Laptseva on 12.07.22.
+  
+*/
+"towerCard_title" = "towerCard_title";
+"towerCard_description" = "towerCard_description";
+"lovesCard_title" = "lovesCard_title";
+"lovesCard_description" = "lovesCard_description";
+"highpriestessCard_title" = "highpriestessCard_title";
+"highpriestessCard_description" = "highpriestessCard_description";

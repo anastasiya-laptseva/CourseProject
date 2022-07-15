@@ -71,35 +71,30 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="aSK-wL-1Hk" userLabel="background">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="906"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JLb-kk-Mm1">
-                                <rect key="frame" x="70" y="268" width="274" height="370.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JLb-kk-Mm1">
+                                <rect key="frame" x="122" y="303" width="170" height="300"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shirt" translatesAutoresizingMaskIntoConstraints="NO" id="VS8-1K-2Wq">
-                                        <rect key="frame" x="52" y="0.0" width="170" height="250"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="170" height="250"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="170" id="Z4y-ys-dnm"/>
                                             <constraint firstAttribute="height" constant="250" id="pJY-GT-LP4"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z6r-8H-0z4">
-                                        <rect key="frame" x="0.0" y="250" width="274" height="100"/>
+                                        <rect key="frame" x="39.5" y="250" width="91" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="100" id="Ikc-LG-CeN"/>
+                                            <constraint firstAttribute="height" constant="50" id="Ikc-LG-CeN"/>
                                         </constraints>
+                                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="button" imagePlacement="top">
-                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
-                                        </buttonConfiguration>
+                                        <buttonConfiguration key="configuration" style="filled" title="Карта дня"/>
                                         <connections>
                                             <action selector="tapChangedMap:" destination="ddu-G0-gWL" eventType="touchUpInside" id="tmT-Cx-qnC"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="КАРТА ДНЯ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E9n-wA-TB8">
-                                        <rect key="frame" x="90.5" y="350" width="93" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                 </subviews>
                             </stackView>
                             <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wu4-bG-UON" userLabel="menu">
@@ -182,6 +177,7 @@
                     </view>
                     <connections>
                         <outlet property="buttonMapOfDay" destination="z6r-8H-0z4" id="GiG-Qo-cqU"/>
+                        <outlet property="imageCard" destination="VS8-1K-2Wq" id="vrJ-1Y-DgD"/>
                         <outlet property="leftMenuConstraint" destination="xte-0q-nxj" id="Cjw-BP-9kw"/>
                         <outlet property="tableView" destination="AI4-ac-S5K" id="yH9-M9-Eeb"/>
                         <segue destination="JWj-fV-NFz" kind="show" identifier="tarotSpreadsMenuSegue" id="o30-sy-8s2"/>
@@ -412,7 +408,6 @@
     <resources>
         <image name="background" width="87" height="144"/>
         <image name="burger" width="500" height="500"/>
-        <image name="button" width="250" height="250"/>
         <image name="notes" width="500" height="500"/>
         <image name="shirt" width="500" height="650"/>
         <systemColor name="labelColor">
