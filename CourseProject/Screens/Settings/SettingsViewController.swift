@@ -54,7 +54,6 @@ class SettingsViewController: UIViewController {
         themeTitle.text = getLocale(key: SettingModel.theme.description)
         themeButton.setTitle(getLocale(key: theme.description), for: .normal)
     }
-    
     func getTheme() {
         
     }

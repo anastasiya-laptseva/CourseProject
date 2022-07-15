@@ -15,6 +15,7 @@
 		0E831CA428675DA600347558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E831CA228675DA600347558 /* LaunchScreen.storyboard */; };
 		0EA64CBB287B53DB003C4842 /* PreservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA64CBA287B53DB003C4842 /* PreservationViewController.swift */; };
 		0EA64CBF287C2256003C4842 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA64CBE287C2256003C4842 /* NotesViewController.swift */; };
+		0EB1ECC328816CDE006EF02F /* TarotSpreadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB1ECC228816CDE006EF02F /* TarotSpreadsViewController.swift */; };
 		450A620E2880C0DC0033277A /* ThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A620A2880C0DC0033277A /* ThemeModel.swift */; };
 		450A620F2880C0DC0033277A /* LanguageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A620B2880C0DC0033277A /* LanguageModel.swift */; };
 		450A62102880C0DC0033277A /* SettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A620C2880C0DC0033277A /* SettingModel.swift */; };
@@ -46,6 +47,7 @@
 		0E831CA528675DA600347558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EA64CBA287B53DB003C4842 /* PreservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreservationViewController.swift; sourceTree = "<group>"; };
 		0EA64CBE287C2256003C4842 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		0EB1ECC228816CDE006EF02F /* TarotSpreadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotSpreadsViewController.swift; sourceTree = "<group>"; };
 		33DC17C0E2ADC3B8005099BB /* Pods-CourseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseProject.debug.xcconfig"; path = "Target Support Files/Pods-CourseProject/Pods-CourseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		450A620A2880C0DC0033277A /* ThemeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeModel.swift; sourceTree = "<group>"; };
 		450A620B2880C0DC0033277A /* LanguageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageModel.swift; sourceTree = "<group>"; };
@@ -145,6 +147,14 @@
 			path = MapsDescription;
 			sourceTree = "<group>";
 		};
+		0EB1ECC128816C9D006EF02F /* TarotSpreads */ = {
+			isa = PBXGroup;
+			children = (
+				0EB1ECC228816CDE006EF02F /* TarotSpreadsViewController.swift */,
+			);
+			path = TarotSpreads;
+			sourceTree = "<group>";
+		};
 		450A62082880C0DC0033277A /* Settings */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +177,7 @@
 		457CCD0528773EDB00FCCFD7 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				0EB1ECC128816C9D006EF02F /* TarotSpreads */,
 				450A62082880C0DC0033277A /* Settings */,
 				457CCD0628773EDB00FCCFD7 /* Auth */,
 				457CCD0928773EDB00FCCFD7 /* Menu */,
@@ -368,6 +379,7 @@
 				450A620E2880C0DC0033277A /* ThemeModel.swift in Sources */,
 				0EA64CBF287C2256003C4842 /* NotesViewController.swift in Sources */,
 				0E831C9728675DA400347558 /* SceneDelegate.swift in Sources */,
+				0EB1ECC328816CDE006EF02F /* TarotSpreadsViewController.swift in Sources */,
 				45F3A8ED287E0E850077B185 /* MenuCardsDayModel.swift in Sources */,
 				450A62112880C0DC0033277A /* SettingsViewController.swift in Sources */,
 				450A62102880C0DC0033277A /* SettingModel.swift in Sources */,
