@@ -18,6 +18,14 @@ class SettingsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let appLang = UserDefaults.standard.string(forKey: "app_lang") ?? "ru"
+        switch(appLang) {
+        case "en":
+            language = .en
+            break
+        default:
+            language = .ru
+        }
         
         getLanguage()
         getTheme()
@@ -46,8 +54,10 @@ class SettingsViewController: UIViewController {
         switch language {
         case .en:
             Bundle.setLanguage(lang: "en")
+            break
         case .ru:
             Bundle.setLanguage(lang: "ru")
+            break
         }
         languageButton.setTitle(getLocale(key: language.description), for: .normal)
         languageTitle.text = getLocale(key: SettingModel.language.description)
