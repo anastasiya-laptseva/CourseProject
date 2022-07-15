@@ -158,20 +158,62 @@
                                 </prototypes>
                                 <sections/>
                             </tableView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="a4B-6G-7ye" userLabel="StackForSocial">
+                                <rect key="frame" x="0.0" y="823" width="414" height="14"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWP-Gn-y2P" userLabel="tiktok">
+                                        <rect key="frame" x="0.0" y="0.0" width="67" height="14"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="tiktok"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2N-y2-6RE" userLabel="youtube">
+                                        <rect key="frame" x="67" y="0.0" width="79" height="14"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="youtube"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAm-gU-qTf" userLabel="zen">
+                                        <rect key="frame" x="146" y="0.0" width="67" height="14"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="zen"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQy-ZE-VDL" userLabel="facebook">
+                                        <rect key="frame" x="213" y="0.0" width="67" height="14"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="facebook"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wvq-Sa-iIs" userLabel="instagram">
+                                        <rect key="frame" x="280" y="0.0" width="67" height="14"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="instagram"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bDb-eX-RWX" userLabel="telegram">
+                                        <rect key="frame" x="347" y="0.0" width="67" height="14"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="telegram"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="qBs-AO-n2D" userLabel="height = 100"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Cch-gx-hc4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="JLb-kk-Mm1" firstAttribute="centerX" secondItem="Cch-gx-hc4" secondAttribute="centerX" id="4ly-EG-uRp"/>
+                            <constraint firstItem="a4B-6G-7ye" firstAttribute="trailing" secondItem="Cch-gx-hc4" secondAttribute="trailing" id="6qX-UW-99S"/>
+                            <constraint firstItem="a4B-6G-7ye" firstAttribute="leading" secondItem="Cch-gx-hc4" secondAttribute="leading" id="BMf-YQ-6bg"/>
                             <constraint firstItem="wu4-bG-UON" firstAttribute="top" secondItem="Cch-gx-hc4" secondAttribute="top" constant="5" id="Bre-gc-caL"/>
                             <constraint firstItem="Cch-gx-hc4" firstAttribute="leading" secondItem="wu4-bG-UON" secondAttribute="leading" constant="-5" id="RBC-SF-j8i"/>
                             <constraint firstItem="JLb-kk-Mm1" firstAttribute="centerY" secondItem="Cch-gx-hc4" secondAttribute="centerY" id="RGi-va-YOK"/>
                             <constraint firstItem="aSK-wL-1Hk" firstAttribute="top" secondItem="qpw-os-mcn" secondAttribute="top" id="Yb4-Dj-9Go"/>
+                            <constraint firstItem="a4B-6G-7ye" firstAttribute="centerX" secondItem="Cch-gx-hc4" secondAttribute="centerX" id="fnB-dQ-Jhw"/>
                             <constraint firstItem="Cch-gx-hc4" firstAttribute="trailing" secondItem="aSK-wL-1Hk" secondAttribute="trailing" id="iQW-2M-G8c"/>
                             <constraint firstItem="aSK-wL-1Hk" firstAttribute="centerY" secondItem="Cch-gx-hc4" secondAttribute="centerY" id="jZz-W6-6Qp"/>
                             <constraint firstItem="aSK-wL-1Hk" firstAttribute="leading" secondItem="Cch-gx-hc4" secondAttribute="leading" id="tox-ZI-pLT"/>
                             <constraint firstItem="aSK-wL-1Hk" firstAttribute="centerX" secondItem="Cch-gx-hc4" secondAttribute="centerX" id="vkY-Oe-70I"/>
                             <constraint firstItem="AI4-ac-S5K" firstAttribute="top" secondItem="Cch-gx-hc4" secondAttribute="top" constant="100" id="wTi-Xu-5mY"/>
+                            <constraint firstItem="a4B-6G-7ye" firstAttribute="bottom" secondItem="Cch-gx-hc4" secondAttribute="bottom" constant="-25" id="xjU-Px-7Gh"/>
                             <constraint firstItem="AI4-ac-S5K" firstAttribute="centerX" secondItem="Cch-gx-hc4" secondAttribute="leading" constant="-50" id="xte-0q-nxj"/>
                         </constraints>
                     </view>
@@ -507,8 +549,14 @@
     <resources>
         <image name="background" width="87" height="144"/>
         <image name="burger" width="500" height="500"/>
+        <image name="facebook" width="32" height="32"/>
+        <image name="instagram" width="32" height="32"/>
         <image name="notes" width="500" height="500"/>
         <image name="shirt" width="500" height="650"/>
+        <image name="telegram" width="32" height="32"/>
+        <image name="tiktok" width="32" height="32"/>
+        <image name="youtube" width="42" height="42"/>
+        <image name="zen" width="32" height="32"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
