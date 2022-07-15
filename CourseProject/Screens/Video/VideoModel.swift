@@ -1,20 +1,20 @@
 //
-//  MenuCardsDayModel.swift
+//  VideoModel.swift
 //  CourseProject
 //
-//  Created by Anastasiya Laptseva on 12.07.22.
+//  Created by Anastasiya Laptseva on 15.07.22.
 //
 
 import UIKit
 
-class MenuCardsDayModel {
-    struct MenuCardsJson: Decodable {
-        let description : String
-        let image: String
+class VideoModel {
+    struct VideoJson: Decodable {
+        let title : String
+        let url: String
     }
     
-    let jsonPath = "configCardsDay"
-    var cards: [MenuCardsJson]?
+    let jsonPath = "configVideo"
+    var playlist: [VideoJson]?
     
     init() {
         guard
@@ -23,7 +23,7 @@ class MenuCardsDayModel {
         else { return }
 
         do {
-            cards = try JSONDecoder().decode([MenuCardsJson].self, from: data)
+            playlist = try JSONDecoder().decode([VideoJson].self, from: data)
             
         } catch {
             print(error)

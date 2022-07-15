@@ -183,7 +183,7 @@
                         <segue destination="JWj-fV-NFz" kind="show" identifier="tarotSpreadsMenuSegue" id="o30-sy-8s2"/>
                         <segue destination="RHR-Y1-rRf" kind="show" identifier="preservationMenuSegue" id="AOl-Jd-p9M"/>
                         <segue destination="asg-8Q-zHc" kind="show" identifier="descriptionMenuSegue" id="mfN-yt-MCL"/>
-                        <segue destination="cKH-cf-20F" kind="show" identifier="notesMenuSegue" id="bCn-ZO-Wyg"/>
+                        <segue destination="cKH-cf-20F" kind="show" identifier="videoMenuSegue" id="bCn-ZO-Wyg"/>
                         <segue destination="s6X-oA-xME" kind="show" identifier="settingsMenuSegue" id="Q6l-y4-yK4"/>
                     </connections>
                 </viewController>
@@ -328,10 +328,10 @@
             </objects>
             <point key="canvasLocation" x="-436.23188405797106" y="2022.9910714285713"/>
         </scene>
-        <!--Notes View Controller-->
+        <!--Video View Controller-->
         <scene sceneID="pMf-ma-VaN">
             <objects>
-                <viewController id="cKH-cf-20F" customClass="NotesViewController" customModule="CourseProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cKH-cf-20F" customClass="VideoViewController" customModule="CourseProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="65W-kq-mba">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

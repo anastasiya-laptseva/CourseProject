@@ -14,7 +14,6 @@
 		0E831CA128675DA600347558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E831CA028675DA600347558 /* Assets.xcassets */; };
 		0E831CA428675DA600347558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E831CA228675DA600347558 /* LaunchScreen.storyboard */; };
 		0EA64CBB287B53DB003C4842 /* PreservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA64CBA287B53DB003C4842 /* PreservationViewController.swift */; };
-		0EA64CBF287C2256003C4842 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA64CBE287C2256003C4842 /* NotesViewController.swift */; };
 		0EB1ECC328816CDE006EF02F /* TarotSpreadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB1ECC228816CDE006EF02F /* TarotSpreadsViewController.swift */; };
 		0EB1ECC5288188B0006EF02F /* TarotSpreadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB1ECC4288188B0006EF02F /* TarotSpreadModel.swift */; };
 		450A620E2880C0DC0033277A /* ThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A620A2880C0DC0033277A /* ThemeModel.swift */; };
@@ -34,6 +33,9 @@
 		45E62AF82880D85A00939699 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E62AF72880D85A00939699 /* String.swift */; };
 		45F3A8ED287E0E850077B185 /* MenuCardsDayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F3A8EC287E0E850077B185 /* MenuCardsDayModel.swift */; };
 		45F3A8EF287E11C00077B185 /* configCardsDay.json in Resources */ = {isa = PBXBuildFile; fileRef = 45F3A8EE287E11C00077B185 /* configCardsDay.json */; };
+		45FB170428819094002AE4D3 /* configVideo.json in Resources */ = {isa = PBXBuildFile; fileRef = 45FB170328819094002AE4D3 /* configVideo.json */; };
+		45FB17082881909F002AE4D3 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FB17062881909F002AE4D3 /* VideoModel.swift */; };
+		45FB17092881909F002AE4D3 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FB17072881909F002AE4D3 /* VideoViewController.swift */; };
 		93E44A65717BF7FA05D094C4 /* Pods_CourseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21192CC9470CBE9F9D0C4A8 /* Pods_CourseProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +49,6 @@
 		0E831CA328675DA600347558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E831CA528675DA600347558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EA64CBA287B53DB003C4842 /* PreservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreservationViewController.swift; sourceTree = "<group>"; };
-		0EA64CBE287C2256003C4842 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		0EB1ECC228816CDE006EF02F /* TarotSpreadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotSpreadsViewController.swift; sourceTree = "<group>"; };
 		0EB1ECC4288188B0006EF02F /* TarotSpreadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotSpreadModel.swift; sourceTree = "<group>"; };
 		33DC17C0E2ADC3B8005099BB /* Pods-CourseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseProject.debug.xcconfig"; path = "Target Support Files/Pods-CourseProject/Pods-CourseProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +70,9 @@
 		45E62AF72880D85A00939699 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		45F3A8EC287E0E850077B185 /* MenuCardsDayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCardsDayModel.swift; sourceTree = "<group>"; };
 		45F3A8EE287E11C00077B185 /* configCardsDay.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = configCardsDay.json; sourceTree = "<group>"; };
+		45FB170328819094002AE4D3 /* configVideo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = configVideo.json; sourceTree = "<group>"; };
+		45FB17062881909F002AE4D3 /* VideoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		45FB17072881909F002AE4D3 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		4FFB0868C1A8398533A14D42 /* Pods-CourseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseProject.release.xcconfig"; path = "Target Support Files/Pods-CourseProject/Pods-CourseProject.release.xcconfig"; sourceTree = "<group>"; };
 		D21192CC9470CBE9F9D0C4A8 /* Pods_CourseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CourseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -106,12 +110,10 @@
 		0E831C9328675DA400347558 /* CourseProject */ = {
 			isa = PBXGroup;
 			children = (
-				45E62AF22880D00800939699 /* Helpers */,
 				0EA64CC1287CC711003C4842 /* MapsDescription */,
 				457CCD1828773F9D00FCCFD7 /* Localizations */,
 				457CCD0D28773EDB00FCCFD7 /* Extentions */,
 				457CCD0528773EDB00FCCFD7 /* Screens */,
-				0E9B2A15287F4C4800BF73C2 /* Models */,
 				0EA64CC0287C2345003C4842 /* Controllers */,
 				0E831C9428675DA400347558 /* AppDelegate.swift */,
 				0E831C9628675DA400347558 /* SceneDelegate.swift */,
@@ -125,18 +127,10 @@
 			path = CourseProject;
 			sourceTree = "<group>";
 		};
-		0E9B2A15287F4C4800BF73C2 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		0EA64CC0287C2345003C4842 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				0EA64CBA287B53DB003C4842 /* PreservationViewController.swift */,
-				0EA64CBE287C2256003C4842 /* NotesViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -144,6 +138,7 @@
 		0EA64CC1287CC711003C4842 /* MapsDescription */ = {
 			isa = PBXGroup;
 			children = (
+				45FB170328819094002AE4D3 /* configVideo.json */,
 				45F3A8EE287E11C00077B185 /* configCardsDay.json */,
 			);
 			path = MapsDescription;
@@ -180,6 +175,7 @@
 		457CCD0528773EDB00FCCFD7 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				45FB17052881909F002AE4D3 /* Video */,
 				0EB1ECC128816C9D006EF02F /* TarotSpreads */,
 				450A62082880C0DC0033277A /* Settings */,
 				457CCD0628773EDB00FCCFD7 /* Auth */,
@@ -227,11 +223,13 @@
 			path = Localizations;
 			sourceTree = "<group>";
 		};
-		45E62AF22880D00800939699 /* Helpers */ = {
+		45FB17052881909F002AE4D3 /* Video */ = {
 			isa = PBXGroup;
 			children = (
+				45FB17062881909F002AE4D3 /* VideoModel.swift */,
+				45FB17072881909F002AE4D3 /* VideoViewController.swift */,
 			);
-			path = Helpers;
+			path = Video;
 			sourceTree = "<group>";
 		};
 		7801C1E8A48F609280D09800 /* Pods */ = {
@@ -312,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45FB170428819094002AE4D3 /* configVideo.json in Resources */,
 				45F3A8EF287E11C00077B185 /* configCardsDay.json in Resources */,
 				4591BA232877420300DF1C70 /* Localizable.strings in Resources */,
 				0E831CA428675DA600347558 /* LaunchScreen.storyboard in Resources */,
@@ -381,16 +380,17 @@
 				457CCD1328773EDB00FCCFD7 /* MenuModel.swift in Sources */,
 				0E831C9F28675DA400347558 /* CourseProject.xcdatamodeld in Sources */,
 				450A620E2880C0DC0033277A /* ThemeModel.swift in Sources */,
-				0EA64CBF287C2256003C4842 /* NotesViewController.swift in Sources */,
 				0E831C9728675DA400347558 /* SceneDelegate.swift in Sources */,
 				0EB1ECC328816CDE006EF02F /* TarotSpreadsViewController.swift in Sources */,
 				45F3A8ED287E0E850077B185 /* MenuCardsDayModel.swift in Sources */,
 				450A62112880C0DC0033277A /* SettingsViewController.swift in Sources */,
 				450A62102880C0DC0033277A /* SettingModel.swift in Sources */,
 				457CCD1128773EDB00FCCFD7 /* AuthModel.swift in Sources */,
+				45FB17092881909F002AE4D3 /* VideoViewController.swift in Sources */,
 				45E62AF82880D85A00939699 /* String.swift in Sources */,
 				457CCD1628773EDB00FCCFD7 /* UIViewController+AlertViewController.swift in Sources */,
 				457CCD1428773EDB00FCCFD7 /* MenuViewController.swift in Sources */,
+				45FB17082881909F002AE4D3 /* VideoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
