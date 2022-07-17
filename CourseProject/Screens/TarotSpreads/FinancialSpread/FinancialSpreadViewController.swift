@@ -58,8 +58,9 @@ class FinancialSpreadViewController: UIViewController {
                 self.button.isUserInteractionEnabled = true
             }
             
-            let description = pick4Elements[index].descriptions[index]
-            descriptionString.append("\(index+1). \(description)")
+            let description = pick4Elements[index].description
+            let locale = getLocale(key: description)
+            descriptionString.append("\(index+1). \(locale)")
             descriptionString.append("\n")
         }
     }

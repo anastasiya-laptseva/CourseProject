@@ -1,191 +1,86 @@
 [
   {
     "image": "fool",
-    "descriptions": [
-      "fool_work",
-      "fool_help",
-      "fool_aim",
-      "fool_stability"
-    ]
+    "description": "fool_financial"
   },
   {
     "image": "magicianCard",
-    "descriptions": [
-      "magicianCard_work",
-      "magicianCard_help",
-      "magicianCard_aim",
-      "magicianCard_stability"
-    ]
+    "description": "magicianCard_financial"
   },
   {
     "image": "highpriestessCard",
-    "descriptions": [
-      "highpriestessCard_work",
-      "highpriestessCard_help",
-      "highpriestessCard_aim",
-      "highpriestessCard_stability"
-    ]
+    "description": "highpriestessCard_financial"
   },
   {
     "image": "empressCard",
-    "descriptions": [
-      "empressCard_work",
-      "empressCard_help",
-      "empressCard_aim",
-      "empressCard_stability"
-    ]
+    "description": "empressCard_financial"
   },
   {
     "image": "emperorCard",
-    "descriptions": [
-      "emperorCard_work",
-      "emperorCard_help",
-      "emperorCard_aim",
-      "emperorCard_stability"
-    ]
+    "description": "emperorCard_financial"
   },
   {
     "image": "lovesCard",
-    "descriptions": [
-      "lovesCard_work",
-      "lovesCard_help",
-      "lovesCard_aim",
-      "lovesCard_stability"
-    ]
+    "description": "lovesCard_financial"
   },
   {
     "image": "chariotCard",
-    "descriptions": [
-      "chariotCard_work",
-      "chariotCard_help",
-      "chariotCard_aim",
-      "chariotCard_stability"
-    ]
+    "description": "chariotCard_financial"
   },
   {
     "image": "strengthCard",
-    "descriptions": [
-      "strengthCard_work",
-      "strengthCard_help",
-      "strengthCard_aim",
-      "strengthCard_stability"
-    ]
+    "description": "strengthCard_financial"
   },
   {
     "image": "hermitCard",
-    "descriptions": [
-      "hermitCard_work",
-      "hermitCard_help",
-      "hermitCard_aim",
-      "hermitCard_stability"
-    ]
+    "description": "hermitCard_financial"
   },
   {
     "image": "wheelOfFortune",
-    "descriptions": [
-      "wheelOfFortune_work",
-      "wheelOfFortune_help",
-      "wheelOfFortune_aim",
-      "wheelOfFortune_stability"
-    ]
+    "description": "wheelOfFortune_financial"
   },
   {
     "image": "justiceCard",
-    "descriptions": [
-      "justiceCard_work",
-      "justiceCard_help",
-      "justiceCard_aim",
-      "justiceCard_stability"
-    ]
+    "description": "justiceCard_financial"
   },
   {
     "image": "hangedCard",
-    "descriptions": [
-      "hangedCard_work",
-      "hangedCard_help",
-      "hangedCard_aim",
-      "hangedCard_stability"
-    ]
+    "description": "hangedCard_financial"
   },
   {
     "image": "deathCard",
-    "descriptions": [
-      "deathCard_work",
-      "deathCard_help",
-      "deathCard_aim",
-      "deathCard_stability"
-    ]
+    "description": "deathCard_financial"
   },
   {
     "image": "moderationCard",
-    "descriptions": [
-      "moderationCard_work",
-      "moderationCard_help",
-      "moderationCard_aim",
-      "moderationCard_stability"
-    ]
+    "description": "moderationCard_financial"
   },
   {
     "image": "devilCard",
-    "descriptions": [
-      "devilCard_work",
-      "devilCard_help",
-      "devilCard_aim",
-      "devilCard_stability"
-    ]
+    "description": "devilCard_financial"
   },
   {
     "image": "towerCard",
-    "descriptions": [
-      "towerCard_work",
-      "towerCard_help",
-      "towerCard_aim",
-      "towerCard_stability"
-    ]
+    "description": "towerCard_financial"
   },
   {
     "image": "starCard",
-    "descriptions": [
-      "starCard_work",
-      "starCard_help",
-      "starCard_aim",
-      "starCard_stability"
-    ]
+    "description": "starCard_financial"
   },
   {
     "image": "moonCard",
-    "descriptions": [
-      "moonCard_work",
-      "moonCard_help",
-      "moonCard_aim",
-      "moonCard_stability"
-    ]
+    "description": "moonCard_financial"
   },
   {
     "image": "sunCard",
-    "descriptions": [
-      "sunCard_work",
-      "sunCard_help",
-      "sunCard_aim",
-      "sunCard_stability"
-    ]
+    "description": "sunCard_financial"
   },
   {
     "image": "doomsdayCard",
-    "descriptions": [
-      "doomsdayCard_work",
-      "doomsdayCard_help",
-      "doomsdayCard_aim",
-      "doomsdayCard_stability"
-    ]
+    "description": "doomsdayCard_financial"
   },
   {
     "image": "worldCard",
-    "descriptions": [
-      "worldCard_work",
-      "worldCard_help",
-      "worldCard_aim",
-      "worldCard_stability"
-    ]
+    "description": "worldCard_financial"
   }
 ]

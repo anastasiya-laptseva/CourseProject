@@ -91,7 +91,7 @@
  Tarot
  */
 
-"financialSpread_title" = "Financial Spread";
+"financialSpread_title" = "Полная чаша";
 "onEveryDaySpread_title" = "Every Day Spread";
 "lovelySpread_title" = "Lovely Spread";
 "situationSpread_title" = "Situation Spread";
@@ -99,3 +99,29 @@
 "personalGrowthSpread_title" = "Personal Growth Spread";
 "buttonTarotMake" = "Сделать расклад";
 "buttonTarotWrite" = "Читать описание";
+
+/*
+ Financial Descriptions
+ */
+
+"fool_financial" = "RU fool_financial";
+"magicianCard_financial" = "RU magicianCard_financial";
+"highpriestessCard_financial" = "RU highpriestessCard_financial";
+"empressCard_financial" = "RU empressCard_financial";
+"emperorCard_financial" = "RU emperorCard_financial";
+"lovesCard_financial" = "RU lovesCard_financial";
+"chariotCard_financial" = "RUchariotCard_financial";
+"strengthCard_financial" = "RU strengthCard_financial";
+"hermitCard_financial" = "RU hermitCard_financial";
+"wheelOfFortune_financial" = "RU wheelOfFortune_financial";
+"justiceCard_financial" = "RU justiceCard_financial";
+"hangedCard_financial" = "RU hangedCard_financial";
+"deathCard_financial" = "RU deathCard_financial";
+"moderationCard_financial" = "RU moderationCard_financial";
+"devilCard_financial" = "RU devilCard_financial";
+"towerCard_financial" = "RU towerCard_financial";
+"starCard_financial" = "RU starCard_financial";
+"moonCard_financial" = "RU moonCard_financial";
+"sunCard_financial" = "RU sunCard_financial";
+"doomsdayCard_financial" = "RU doomsdayCard_financial";
+"worldCard_financial" = "RU worldCard_financial";

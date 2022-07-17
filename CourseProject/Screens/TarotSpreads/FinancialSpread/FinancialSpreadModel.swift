@@ -10,7 +10,7 @@ import UIKit
 class FinancialSpreadModel {
     struct FinancialSpreadJson: Decodable {
         let image: String
-        let descriptions : [String]
+        let description : String
     }
     
     let jsonPath = "configFinancial"

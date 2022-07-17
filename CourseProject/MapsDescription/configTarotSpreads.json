@@ -2,26 +2,26 @@
     
   {
     "title": "financialSpread_title",
-    "image":"fool"
+    "image":"shirt"
   },
   {
     "title": "onEveryDaySpread_title",
-    "image":"magicianCard"
+    "image":"magicianCard_en"
   },
   {
     "title": "lovelySpread_title",
-    "image":"highpriestessCard"
+    "image":"highpriestessCard_en"
   },
   {
     "title": "situationSpread_title",
-    "image":"empressCard"
+    "image":"empressCard_en"
   },
   {
     "title": "healthySpread_title",
-    "image":"emperorCard"
+    "image":"emperorCard_en"
   },
   {
     "title": "personalGrowthSpread_title",
-    "image":"hierophantCard"
+    "image":"hierophantCard_en"
   }
 ]

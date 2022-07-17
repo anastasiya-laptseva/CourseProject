@@ -39,7 +39,7 @@ class TarotSpreadsCollectionViewController: UICollectionViewController {
         
         guard let tarot = tarotSpreads.tarot?[indexPath.row] else { return cell }
         
-        let image = UIImage(named: "\(tarot.image)_en")
+        let image = UIImage(named: tarot.image)
         cell.imageView.image = image
         cell.labelView.text = getLocale(key: tarot.title)
         if indexPath.row > 0 {

@@ -101,3 +101,28 @@
 "buttonTarotMake" = "Make Tarot";
 "buttonTarotWrite" = "Write Tarot";
 
+/*
+ Financial Descriptions
+ */
+
+"fool_financial" = "fool_financial";
+"magicianCard_financial" = "magicianCard_financial";
+"highpriestessCard_financial" = "highpriestessCard_financial";
+"empressCard_financial" = "empressCard_financial";
+"emperorCard_financial" = "emperorCard_financial";
+"lovesCard_financial" = "lovesCard_financial";
+"chariotCard_financial" = "chariotCard_financial";
+"strengthCard_financial" = "strengthCard_financial";
+"hermitCard_financial" = "hermitCard_financial";
+"wheelOfFortune_financial" = "wheelOfFortune_financial";
+"justiceCard_financial" = "justiceCard_financial";
+"hangedCard_financial" = "hangedCard_financial";
+"deathCard_financial" = "deathCard_financial";
+"moderationCard_financial" = "moderationCard_financial";
+"devilCard_financial" = "devilCard_financial";
+"towerCard_financial" = "towerCard_financial";
+"starCard_financial" = "starCard_financial";
+"moonCard_financial" = "moonCard_financial";
+"sunCard_financial" = "sunCard_financial";
+"doomsdayCard_financial" = "doomsdayCard_financial";
+"worldCard_financial" = "worldCard_financial";
