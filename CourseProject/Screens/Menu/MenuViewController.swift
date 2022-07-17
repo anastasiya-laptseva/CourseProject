@@ -20,6 +20,7 @@ class MenuViewController: UIViewController {
     
     let menuCardsDay = MenuCardsDayModel()
     var numberCardsDay = 0
+    var isOpenCard: Bool = false
     
     
     override func viewDidLoad() {
@@ -35,13 +36,15 @@ class MenuViewController: UIViewController {
         //TODO: Check card
         //numberCardsDay = 1
         
-        setupImage()
+        //setupImage()
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        buttonMapOfDay.setTitle(getLocale(key: "buttomMapOfDay"), for: .normal)
-        setupImage()
-        tableView.reloadData()
+        if isOpenCard {
+            buttonMapOfDay.setTitle(getLocale(key: "buttomMapOfDay"), for: .normal)
+            setupImage()
+            tableView.reloadData()
+        }
     }
 
     @IBAction func onMenuClick(_ sender: Any) {
@@ -55,9 +58,19 @@ class MenuViewController: UIViewController {
         }
     }
     @IBAction func tapChangedMap(_ sender: Any) {
-        let key = menuCardsDay.cards?[numberCardsDay].description ?? ""
-        let description = getLocale(key: "\(key)_description")
-        showAlert(title: "", message: description)
+        buttonMapOfDay.isUserInteractionEnabled = false
+        if !isOpenCard {
+            setupImage()
+            animateCardDay {_ in
+                self.showDescriptionDay()
+                self.buttonMapOfDay.isUserInteractionEnabled = true
+            }
+        }
+        else {
+            showDescriptionDay()
+            buttonMapOfDay.isUserInteractionEnabled = true
+        }
+        isOpenCard = true
     }
     
     //MARK: Autotesting
@@ -142,6 +155,17 @@ extension MenuViewController: UITableViewDataSource, UITableViewDelegate {
             langKey = "ru"
         }
         imageCard.image = getImage(langKey: langKey, numberKey: numberCardsDay)
+    }
+    
+    
+    func animateCardDay(finished: @escaping (Bool) -> Void) {
+        UIView.transition(with: imageCard, duration: 1.0, options: .transitionFlipFromRight, animations: nil, completion: finished)
+    }
+    
+    func showDescriptionDay() {
+        let key = self.menuCardsDay.cards?[self.numberCardsDay].description ?? ""
+        let description = self.getLocale(key: "\(key)_description")
+        self.showAlert(title: "", message: description)
     }
     
     func setCardOfDay() {
