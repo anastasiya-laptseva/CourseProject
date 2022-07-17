@@ -1,20 +1,20 @@
 //
-//  MenuCardsDayModel.swift
+//  MapCardModel.swift
 //  CourseProject
 //
-//  Created by Anastasiya Laptseva on 12.07.22.
+//  Created by Anastasiya Laptseva on 17.07.22.
 //
 
 import UIKit
 
-class MenuCardsDayModel {
-    struct MenuCardsJson: Decodable {
+class MapCardsDayModel {
+    struct MapCardsJson: Decodable {
         let description : String
         let image: String
     }
     
-    let jsonPath = "configCardsDay"
-    var cards: [MenuCardsJson]?
+    let jsonPath = "configMapCards"
+    var cards: [MapCardsJson]?
     
     init() {
         guard
@@ -23,7 +23,7 @@ class MenuCardsDayModel {
         else { return }
 
         do {
-            cards = try JSONDecoder().decode([MenuCardsJson].self, from: data)
+            cards = try JSONDecoder().decode([MapCardsJson].self, from: data)
             
         } catch {
             print(error)

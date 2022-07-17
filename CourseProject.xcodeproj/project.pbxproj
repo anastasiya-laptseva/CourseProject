@@ -16,7 +16,6 @@
 		0EA64CBB287B53DB003C4842 /* PreservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA64CBA287B53DB003C4842 /* PreservationViewController.swift */; };
 		0EB1ECC328816CDE006EF02F /* TarotSpreadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB1ECC228816CDE006EF02F /* TarotSpreadsViewController.swift */; };
 		0EB1ECC5288188B0006EF02F /* TarotSpreadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB1ECC4288188B0006EF02F /* TarotSpreadModel.swift */; };
-		0EB1ECC828819779006EF02F /* MapsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB1ECC728819779006EF02F /* MapsCollectionViewController.swift */; };
 		0EB1ECCB2882E7D0006EF02F /* OnEveryDaySpreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB1ECCA2882E7D0006EF02F /* OnEveryDaySpreadViewController.swift */; };
 		0EB1ECCD2882E7EB006EF02F /* LovelySpreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB1ECCC2882E7EB006EF02F /* LovelySpreadViewController.swift */; };
 		0EB1ECCF2882E808006EF02F /* SituationSpreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB1ECCE2882E808006EF02F /* SituationSpreadViewController.swift */; };
@@ -29,6 +28,11 @@
 		450A620F2880C0DC0033277A /* LanguageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A620B2880C0DC0033277A /* LanguageModel.swift */; };
 		450A62102880C0DC0033277A /* SettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A620C2880C0DC0033277A /* SettingModel.swift */; };
 		450A62112880C0DC0033277A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A620D2880C0DC0033277A /* SettingsViewController.swift */; };
+		454C5A7828841E5700FDF4CB /* MapsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C5A7728841E5700FDF4CB /* MapsCollectionViewCell.swift */; };
+		454C5A7A2884220B00FDF4CB /* MapCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C5A792884220B00FDF4CB /* MapCollectionViewController.swift */; };
+		454C5A7C28842B6800FDF4CB /* MapDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C5A7B28842B6800FDF4CB /* MapDescriptionViewController.swift */; };
+		454C5A7E28842C3B00FDF4CB /* MapCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C5A7D28842C3B00FDF4CB /* MapCardModel.swift */; };
+		454C5A8028842C7000FDF4CB /* configMapCards.json in Resources */ = {isa = PBXBuildFile; fileRef = 454C5A7F28842C7000FDF4CB /* configMapCards.json */; };
 		457CCD1028773EDB00FCCFD7 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CCD0728773EDB00FCCFD7 /* AuthViewController.swift */; };
 		457CCD1128773EDB00FCCFD7 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CCD0828773EDB00FCCFD7 /* AuthModel.swift */; };
 		457CCD1228773EDB00FCCFD7 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CCD0A28773EDB00FCCFD7 /* MenuTableViewCell.swift */; };
@@ -59,7 +63,6 @@
 		0EA64CBA287B53DB003C4842 /* PreservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreservationViewController.swift; sourceTree = "<group>"; };
 		0EB1ECC228816CDE006EF02F /* TarotSpreadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotSpreadsViewController.swift; sourceTree = "<group>"; };
 		0EB1ECC4288188B0006EF02F /* TarotSpreadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotSpreadModel.swift; sourceTree = "<group>"; };
-		0EB1ECC728819779006EF02F /* MapsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsCollectionViewController.swift; sourceTree = "<group>"; };
 		0EB1ECCA2882E7D0006EF02F /* OnEveryDaySpreadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnEveryDaySpreadViewController.swift; sourceTree = "<group>"; };
 		0EB1ECCC2882E7EB006EF02F /* LovelySpreadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LovelySpreadViewController.swift; sourceTree = "<group>"; };
 		0EB1ECCE2882E808006EF02F /* SituationSpreadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SituationSpreadViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +76,11 @@
 		450A620B2880C0DC0033277A /* LanguageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageModel.swift; sourceTree = "<group>"; };
 		450A620C2880C0DC0033277A /* SettingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingModel.swift; sourceTree = "<group>"; };
 		450A620D2880C0DC0033277A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		454C5A7728841E5700FDF4CB /* MapsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsCollectionViewCell.swift; sourceTree = "<group>"; };
+		454C5A792884220B00FDF4CB /* MapCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCollectionViewController.swift; sourceTree = "<group>"; };
+		454C5A7B28842B6800FDF4CB /* MapDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDescriptionViewController.swift; sourceTree = "<group>"; };
+		454C5A7D28842C3B00FDF4CB /* MapCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCardModel.swift; sourceTree = "<group>"; };
+		454C5A7F28842C7000FDF4CB /* configMapCards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = configMapCards.json; sourceTree = "<group>"; };
 		457CCD0728773EDB00FCCFD7 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		457CCD0828773EDB00FCCFD7 /* AuthModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
 		457CCD0A28773EDB00FCCFD7 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
@@ -154,6 +162,7 @@
 		0EA64CC1287CC711003C4842 /* MapsDescription */ = {
 			isa = PBXGroup;
 			children = (
+				454C5A7F28842C7000FDF4CB /* configMapCards.json */,
 				45FB170328819094002AE4D3 /* configVideo.json */,
 				45F3A8EE287E11C00077B185 /* configCardsDay.json */,
 			);
@@ -173,7 +182,10 @@
 		0EB1ECC62881973C006EF02F /* DescriptionsMaps */ = {
 			isa = PBXGroup;
 			children = (
-				0EB1ECC728819779006EF02F /* MapsCollectionViewController.swift */,
+				454C5A7728841E5700FDF4CB /* MapsCollectionViewCell.swift */,
+				454C5A792884220B00FDF4CB /* MapCollectionViewController.swift */,
+				454C5A7B28842B6800FDF4CB /* MapDescriptionViewController.swift */,
+				454C5A7D28842C3B00FDF4CB /* MapCardModel.swift */,
 			);
 			path = DescriptionsMaps;
 			sourceTree = "<group>";
@@ -354,6 +366,7 @@
 				45F3A8EF287E11C00077B185 /* configCardsDay.json in Resources */,
 				4591BA232877420300DF1C70 /* Localizable.strings in Resources */,
 				0E831CA428675DA600347558 /* LaunchScreen.storyboard in Resources */,
+				454C5A8028842C7000FDF4CB /* configMapCards.json in Resources */,
 				0E831CA128675DA600347558 /* Assets.xcassets in Resources */,
 				0E831C9C28675DA400347558 /* Main.storyboard in Resources */,
 				0EB1ECDB288413D8006EF02F /* GoogleService-Info.plist in Resources */,
@@ -410,7 +423,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EA64CBB287B53DB003C4842 /* PreservationViewController.swift in Sources */,
+				454C5A7E28842C3B00FDF4CB /* MapCardModel.swift in Sources */,
 				45E62AF12880CB5B00939699 /* Bundle.swift in Sources */,
+				454C5A7828841E5700FDF4CB /* MapsCollectionViewCell.swift in Sources */,
 				457CCD1028773EDB00FCCFD7 /* AuthViewController.swift in Sources */,
 				457CCD1528773EDB00FCCFD7 /* UIViewController+Localization.swift in Sources */,
 				0EB1ECD12882E822006EF02F /* HealthySpreadViewController.swift in Sources */,
@@ -423,16 +438,17 @@
 				457CCD1328773EDB00FCCFD7 /* MenuModel.swift in Sources */,
 				0E831C9F28675DA400347558 /* CourseProject.xcdatamodeld in Sources */,
 				450A620E2880C0DC0033277A /* ThemeModel.swift in Sources */,
+				454C5A7A2884220B00FDF4CB /* MapCollectionViewController.swift in Sources */,
 				0EB1ECCB2882E7D0006EF02F /* OnEveryDaySpreadViewController.swift in Sources */,
 				0E831C9728675DA400347558 /* SceneDelegate.swift in Sources */,
 				0EB1ECC328816CDE006EF02F /* TarotSpreadsViewController.swift in Sources */,
 				0EB1ECCF2882E808006EF02F /* SituationSpreadViewController.swift in Sources */,
 				45F3A8ED287E0E850077B185 /* MenuCardsDayModel.swift in Sources */,
 				450A62112880C0DC0033277A /* SettingsViewController.swift in Sources */,
+				454C5A7C28842B6800FDF4CB /* MapDescriptionViewController.swift in Sources */,
 				0EB1ECD72882E8AA006EF02F /* ChoiceSpreadViewController.swift in Sources */,
 				450A62102880C0DC0033277A /* SettingModel.swift in Sources */,
 				457CCD1128773EDB00FCCFD7 /* AuthModel.swift in Sources */,
-				0EB1ECC828819779006EF02F /* MapsCollectionViewController.swift in Sources */,
 				45FB17092881909F002AE4D3 /* VideoViewController.swift in Sources */,
 				45E62AF82880D85A00939699 /* String.swift in Sources */,
 				457CCD1628773EDB00FCCFD7 /* UIViewController+AlertViewController.swift in Sources */,

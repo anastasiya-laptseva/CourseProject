@@ -17,7 +17,7 @@ class AuthViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //for easy test
-//        goToMenu()
+        goToMenu()
     }
 
     @IBAction func onSignIn(_ sender: Any) {

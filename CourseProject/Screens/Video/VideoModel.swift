@@ -29,19 +29,4 @@ class VideoModel {
             print(error)
         }
     }
-    
-    private func getJson() -> String {
-        if let filepath = Bundle.main.path(forResource: jsonPath, ofType: "") {
-            do {
-                let content = try String(contentsOfFile: filepath)
-                return content
-                
-            } catch {
-                // contents could not be loaded
-            }
-        } else {
-            // example.txt not found!
-        }
-        return ""
-    }
 }
