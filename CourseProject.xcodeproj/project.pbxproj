@@ -24,6 +24,7 @@
 		0EB1ECD32882E844006EF02F /* FinancialSpreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB1ECD22882E844006EF02F /* FinancialSpreadViewController.swift */; };
 		0EB1ECD52882E871006EF02F /* PersonalGrowthSpreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB1ECD42882E871006EF02F /* PersonalGrowthSpreadViewController.swift */; };
 		0EB1ECD72882E8AA006EF02F /* ChoiceSpreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB1ECD62882E8AA006EF02F /* ChoiceSpreadViewController.swift */; };
+		0EB1ECDB288413D8006EF02F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EB1ECDA288413D8006EF02F /* GoogleService-Info.plist */; };
 		450A620E2880C0DC0033277A /* ThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A620A2880C0DC0033277A /* ThemeModel.swift */; };
 		450A620F2880C0DC0033277A /* LanguageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A620B2880C0DC0033277A /* LanguageModel.swift */; };
 		450A62102880C0DC0033277A /* SettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A620C2880C0DC0033277A /* SettingModel.swift */; };
@@ -36,7 +37,6 @@
 		457CCD1528773EDB00FCCFD7 /* UIViewController+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CCD0E28773EDB00FCCFD7 /* UIViewController+Localization.swift */; };
 		457CCD1628773EDB00FCCFD7 /* UIViewController+AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CCD0F28773EDB00FCCFD7 /* UIViewController+AlertViewController.swift */; };
 		4591BA232877420300DF1C70 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4591BA252877420300DF1C70 /* Localizable.strings */; };
-		45ACF217286A2FB30007EDC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45ACF216286A2FB30007EDC0 /* GoogleService-Info.plist */; };
 		45E62AF12880CB5B00939699 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E62AF02880CB5B00939699 /* Bundle.swift */; };
 		45E62AF82880D85A00939699 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E62AF72880D85A00939699 /* String.swift */; };
 		45F3A8ED287E0E850077B185 /* MenuCardsDayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F3A8EC287E0E850077B185 /* MenuCardsDayModel.swift */; };
@@ -67,6 +67,7 @@
 		0EB1ECD22882E844006EF02F /* FinancialSpreadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialSpreadViewController.swift; sourceTree = "<group>"; };
 		0EB1ECD42882E871006EF02F /* PersonalGrowthSpreadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalGrowthSpreadViewController.swift; sourceTree = "<group>"; };
 		0EB1ECD62882E8AA006EF02F /* ChoiceSpreadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceSpreadViewController.swift; sourceTree = "<group>"; };
+		0EB1ECDA288413D8006EF02F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		33DC17C0E2ADC3B8005099BB /* Pods-CourseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseProject.debug.xcconfig"; path = "Target Support Files/Pods-CourseProject/Pods-CourseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		450A620A2880C0DC0033277A /* ThemeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeModel.swift; sourceTree = "<group>"; };
 		450A620B2880C0DC0033277A /* LanguageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageModel.swift; sourceTree = "<group>"; };
@@ -81,7 +82,6 @@
 		457CCD0F28773EDB00FCCFD7 /* UIViewController+AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+AlertViewController.swift"; sourceTree = "<group>"; };
 		4591BA242877420300DF1C70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4591BA262877420400DF1C70 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
-		45ACF216286A2FB30007EDC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		45E62AF02880CB5B00939699 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		45E62AF72880D85A00939699 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		45F3A8EC287E0E850077B185 /* MenuCardsDayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCardsDayModel.swift; sourceTree = "<group>"; };
@@ -136,7 +136,7 @@
 				0E831C9A28675DA400347558 /* Main.storyboard */,
 				0E831CA228675DA600347558 /* LaunchScreen.storyboard */,
 				0E831CA028675DA600347558 /* Assets.xcassets */,
-				45ACF216286A2FB30007EDC0 /* GoogleService-Info.plist */,
+				0EB1ECDA288413D8006EF02F /* GoogleService-Info.plist */,
 				0E831CA528675DA600347558 /* Info.plist */,
 				0E831C9D28675DA400347558 /* CourseProject.xcdatamodeld */,
 			);
@@ -354,9 +354,9 @@
 				45F3A8EF287E11C00077B185 /* configCardsDay.json in Resources */,
 				4591BA232877420300DF1C70 /* Localizable.strings in Resources */,
 				0E831CA428675DA600347558 /* LaunchScreen.storyboard in Resources */,
-				45ACF217286A2FB30007EDC0 /* GoogleService-Info.plist in Resources */,
 				0E831CA128675DA600347558 /* Assets.xcassets in Resources */,
 				0E831C9C28675DA400347558 /* Main.storyboard in Resources */,
+				0EB1ECDB288413D8006EF02F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
