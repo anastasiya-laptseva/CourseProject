@@ -104,6 +104,11 @@
  Financial Descriptions
  */
 
+"financial_title_status" = "RU financial_title_status";
+"financial_title_help" = "RU financial_title_help";
+"financial_title_aim" = "RU financial_title_aim";
+"financial_title_status_stability" = "RU financial_title_status_stability";
+
 "fool_financial" = "RU fool_financial";
 "magicianCard_financial" = "RU magicianCard_financial";
 "highpriestessCard_financial" = "RU highpriestessCard_financial";

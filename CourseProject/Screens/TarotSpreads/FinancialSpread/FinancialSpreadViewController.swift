@@ -49,7 +49,7 @@ class FinancialSpreadViewController: UIViewController {
         button.isUserInteractionEnabled = false
         guard let pick4Elements = financialModel.cards?.choose(arraySpreadImages.count) else { return }
         
-        let arrayTitles = ["Истинное положение дел", "Ваши помощники, подсказки и советы", "К чему стоит стремится", "Что необходимо предпринимать для стабилизации положения"]
+        let arrayTitles = ["financial_title_status", "financial_title_help", "financial_title_aim", "financial_title_status_stability"]
         
         for index in 0..<pick4Elements.count {
             let imageName = pick4Elements[index].image
@@ -61,14 +61,15 @@ class FinancialSpreadViewController: UIViewController {
             }
             
             let description = pick4Elements[index].description
-            let locale = getLocale(key: description)
+            let localeTitle = getLocale(key: arrayTitles[index])
+            let localePoint = getLocale(key: description)
            
             //Добавление описания
-            descriptionString.append("\(arrayTitles[index]):")
+            descriptionString.append("\(localeTitle):")
             descriptionString.append("\n")
             descriptionString.append("\n")
             //Добавление пункта
-            descriptionString.append("\(locale)")
+            descriptionString.append("\(localePoint)")
             descriptionString.append("\n")
             descriptionString.append("\n")
             descriptionString.append("\n")

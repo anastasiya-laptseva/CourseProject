@@ -41,11 +41,9 @@ class MenuViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        if isOpenCard {
-            buttonMapOfDay.setTitle(getLocale(key: "buttomMapOfDay"), for: .normal)
-            setupImage()
-            tableView.reloadData()
-        }
+        buttonMapOfDay.setTitle(getLocale(key: "buttomMapOfDay"), for: .normal)
+        setupImage()
+        tableView.reloadData()
     }
 
     @IBAction func onMenuClick(_ sender: Any) {
