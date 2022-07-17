@@ -81,6 +81,26 @@ class MenuViewController: UIViewController {
         }
         print("----------Autotest: End Image and Description Test---------- ")
     }
+    //MARK: Autotesting
+    @IBAction func tikTokTap(_ sender: Any) {
+        UIApplication.shared.openURL(URL(string: "https://tiktok.com/@angel.daemon.taro")!)
+    }
+    @IBAction func youtubeTap(_ sender: Any) {
+        UIApplication.shared.openURL(URL(string: "https://youtube.com/channel/UCIukCEupRBzhdsOTa7RLdMA")!)
+    }
+    @IBAction func zenTap(_ sender: Any) {
+        UIApplication.shared.openURL(URL(string: "https://zen.yandex.ru/profile/editor/id/62beeb66396f275a086435f2")!)
+    }
+    @IBAction func facebookTap(_ sender: Any) {
+        UIApplication.shared.openURL(URL(string: "https://www.facebook.com/profile.php?id=100082897029310")!)
+    }
+    @IBAction func instagramTap(_ sender: Any) {
+        UIApplication.shared.openURL(URL(string: "https://instagram.com/_angel_daemon_taro_?igshid=YmMyMTA2M2Y=")!)
+    }
+    @IBAction func telegramTap(_ sender: Any) {
+        UIApplication.shared.openURL(URL(string: "https://t.me/anlel_daemon_taro")!)
+    }
+    
     
 }
 
