@@ -1,51 +1,51 @@
 [
   
   {
-    "description": "foolCard",
+    "description": "foolCard_description",
     "image": "fool"
   },
   {
-    "description": "magicianCard",
+    "description": "magicianCard_description",
     "image": "magicianCard"
   },
   {
-    "description": "highpriestessCard",
+    "description": "highpriestessCard_description",
     "image": "highpriestessCard"
   },
   {
-    "description": "empressCard",
+    "description": "empressCard_description",
     "image": "empressCard"
   },
   {
-    "description": "emperorCard",
+    "description": "emperorCard_description",
     "image": "emperorCard"
   },
   {
-    "description": "hierophantCard",
+    "description": "hierophantCard_description",
     "image": "hierophantCard"
   },
   {
-    "description": "lovesCard",
+    "description": "lovesCard_description",
     "image": "lovesCard"
   },
   {
-    "description": "chariotCard",
+    "description": "chariotCard_description",
     "image": "chariotCard"
   },
   {
-    "description": "strengthCard",
+    "description": "strengthCard_description",
     "image": "strengthCard"
   },
   {
-    "description": "hermitCard",
+    "description": "hermitCard_description",
     "image": "hermitCard"
   },
   {
-    "description": "wheelOfFortuneCard",
+    "description": "wheelOfFortuneCard_description",
     "image": "wheelOfFortune"
   },
   {
-    "description": "justiceCard",
+    "description": "justiceCard_description",
     "image": "justiceCard"
   },
   {

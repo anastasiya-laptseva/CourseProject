@@ -27,7 +27,7 @@ class MapCollectionViewController: UICollectionViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let descruptionController = segue.destination as? MapDescriptionViewController {
             let key = self.mapCards.cards?[numberSelect].description ?? ""
-            let description = self.getLocale(key: "\(key)_map_description")
+            let description = self.getLocale(key: key)
             
             descruptionController.descriptionText = getLocale(key: description)
         }

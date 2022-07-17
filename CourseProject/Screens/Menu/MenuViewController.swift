@@ -165,7 +165,7 @@ extension MenuViewController: UITableViewDataSource, UITableViewDelegate {
     
     func showDescriptionDay() {
         let key = self.menuCardsDay.cards?[self.numberCardsDay].description ?? ""
-        let description = self.getLocale(key: "\(key)_description")
+        let description = self.getLocale(key: key)
         self.showAlert(title: "", message: description)
     }
     

@@ -1,91 +1,91 @@
 [
   
   {
-    "description": "foolCard",
+    "description": "foolCard_map_description",
     "image": "fool"
   },
   {
-    "description": "magicianCard",
+    "description": "magicianCard_map_description",
     "image": "magicianCard"
   },
   {
-    "description": "highpriestessCard",
+    "description": "highpriestessCard_map_description",
     "image": "highpriestessCard"
   },
   {
-    "description": "empressCard",
+    "description": "empressCard_map_description",
     "image": "empressCard"
   },
   {
-    "description": "emperorCard",
+    "description": "emperorCard_map_description",
     "image": "emperorCard"
   },
   {
-    "description": "hierophantCard",
+    "description": "hierophantCard_map_description",
     "image": "hierophantCard"
   },
   {
-    "description": "lovesCard",
+    "description": "lovesCard_map_description",
     "image": "lovesCard"
   },
   {
-    "description": "chariotCard",
+    "description": "chariotCard_map_description",
     "image": "chariotCard"
   },
   {
-    "description": "strengthCard",
+    "description": "strengthCard_map_description",
     "image": "strengthCard"
   },
   {
-    "description": "hermitCard",
+    "description": "hermitCard_map_description",
     "image": "hermitCard"
   },
   {
-    "description": "wheelOfFortuneCard",
+    "description": "wheelOfFortuneCard_map_description",
     "image": "wheelOfFortune"
   },
   {
-    "description": "justiceCard",
+    "description": "justiceCard_map_description",
     "image": "justiceCard"
   },
   {
-    "description": "hangedCard",
+    "description": "hangedCard_map_description",
     "image": "hangedCard"
   },
   {
-    "description": "deathCard",
+    "description": "deathCard_map_description",
     "image": "deathCard"
   },
   {
-    "description": "moderationCard",
+    "description": "moderationCard_map_description",
     "image": "moderationCard"
   },
   {
-    "description": "devilCard",
+    "description": "devilCard_map_description",
     "image": "devilCard"
   },
   {
-    "description": "towerCard",
+    "description": "towerCard_map_description",
     "image": "towerCard"
   },
   {
-    "description": "starCard",
+    "description": "starCard_map_description",
     "image": "starCard"
   },
   {
-    "description": "moonCard",
+    "description": "moonCard_map_description",
     "image": "moonCard"
   },
   {
-    "description": "sunCard",
+    "description": "sunCard_map_description",
     "image": "sunCard"
   },
   {
-    "description": "doomsdayCard",
+    "description": "doomsdayCard_map_description",
     "image": "doomsdayCard"
   },
   {
-    "description": "worldCard",
+    "description": "worldCard_map_description",
     "image": "worldCard"
   }
 ]
