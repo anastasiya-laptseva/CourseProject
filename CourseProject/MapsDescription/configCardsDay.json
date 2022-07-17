@@ -6,7 +6,7 @@
   },
   {
     "description": "magicianCard",
-    "image": "magician"
+    "image": "magicianCard"
   },
   {
     "description": "highpriestessCard",
@@ -42,7 +42,7 @@
   },
   {
     "description": "wheelOfFortuneCard",
-    "image": "wheelOfFortuneCard"
+    "image": "wheelOfFortune"
   },
   {
     "description": "justiceCard",

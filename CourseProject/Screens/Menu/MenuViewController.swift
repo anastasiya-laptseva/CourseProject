@@ -32,6 +32,7 @@ class MenuViewController: UIViewController {
         tableView.delegate = self
         
         setCardOfDay()
+        debugNextClick(self)
         
         //TODO: Check card
         //numberCardsDay = 1
