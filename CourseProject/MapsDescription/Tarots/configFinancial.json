@@ -1,0 +1,191 @@
+[
+  {
+    "image": "fool",
+    "descriptions": [
+      "fool_work",
+      "fool_help",
+      "fool_aim",
+      "fool_stability"
+    ]
+  },
+  {
+    "image": "magicianCard",
+    "descriptions": [
+      "magicianCard_work",
+      "magicianCard_help",
+      "magicianCard_aim",
+      "magicianCard_stability"
+    ]
+  },
+  {
+    "image": "highpriestessCard",
+    "descriptions": [
+      "highpriestessCard_work",
+      "highpriestessCard_help",
+      "highpriestessCard_aim",
+      "highpriestessCard_stability"
+    ]
+  },
+  {
+    "image": "empressCard",
+    "descriptions": [
+      "empressCard_work",
+      "empressCard_help",
+      "empressCard_aim",
+      "empressCard_stability"
+    ]
+  },
+  {
+    "image": "emperorCard",
+    "descriptions": [
+      "emperorCard_work",
+      "emperorCard_help",
+      "emperorCard_aim",
+      "emperorCard_stability"
+    ]
+  },
+  {
+    "image": "lovesCard",
+    "descriptions": [
+      "lovesCard_work",
+      "lovesCard_help",
+      "lovesCard_aim",
+      "lovesCard_stability"
+    ]
+  },
+  {
+    "image": "chariotCard",
+    "descriptions": [
+      "chariotCard_work",
+      "chariotCard_help",
+      "chariotCard_aim",
+      "chariotCard_stability"
+    ]
+  },
+  {
+    "image": "strengthCard",
+    "descriptions": [
+      "strengthCard_work",
+      "strengthCard_help",
+      "strengthCard_aim",
+      "strengthCard_stability"
+    ]
+  },
+  {
+    "image": "hermitCard",
+    "descriptions": [
+      "hermitCard_work",
+      "hermitCard_help",
+      "hermitCard_aim",
+      "hermitCard_stability"
+    ]
+  },
+  {
+    "image": "wheelOfFortune",
+    "descriptions": [
+      "wheelOfFortune_work",
+      "wheelOfFortune_help",
+      "wheelOfFortune_aim",
+      "wheelOfFortune_stability"
+    ]
+  },
+  {
+    "image": "justiceCard",
+    "descriptions": [
+      "justiceCard_work",
+      "justiceCard_help",
+      "justiceCard_aim",
+      "justiceCard_stability"
+    ]
+  },
+  {
+    "image": "hangedCard",
+    "descriptions": [
+      "hangedCard_work",
+      "hangedCard_help",
+      "hangedCard_aim",
+      "hangedCard_stability"
+    ]
+  },
+  {
+    "image": "deathCard",
+    "descriptions": [
+      "deathCard_work",
+      "deathCard_help",
+      "deathCard_aim",
+      "deathCard_stability"
+    ]
+  },
+  {
+    "image": "moderationCard",
+    "descriptions": [
+      "moderationCard_work",
+      "moderationCard_help",
+      "moderationCard_aim",
+      "moderationCard_stability"
+    ]
+  },
+  {
+    "image": "devilCard",
+    "descriptions": [
+      "devilCard_work",
+      "devilCard_help",
+      "devilCard_aim",
+      "devilCard_stability"
+    ]
+  },
+  {
+    "image": "towerCard",
+    "descriptions": [
+      "towerCard_work",
+      "towerCard_help",
+      "towerCard_aim",
+      "towerCard_stability"
+    ]
+  },
+  {
+    "image": "starCard",
+    "descriptions": [
+      "starCard_work",
+      "starCard_help",
+      "starCard_aim",
+      "starCard_stability"
+    ]
+  },
+  {
+    "image": "moonCard",
+    "descriptions": [
+      "moonCard_work",
+      "moonCard_help",
+      "moonCard_aim",
+      "moonCard_stability"
+    ]
+  },
+  {
+    "image": "sunCard",
+    "descriptions": [
+      "sunCard_work",
+      "sunCard_help",
+      "sunCard_aim",
+      "sunCard_stability"
+    ]
+  },
+  {
+    "image": "doomsdayCard",
+    "descriptions": [
+      "doomsdayCard_work",
+      "doomsdayCard_help",
+      "doomsdayCard_aim",
+      "doomsdayCard_stability"
+    ]
+  },
+  {
+    "image": "worldCard",
+    "descriptions": [
+      "worldCard_work",
+      "worldCard_help",
+      "worldCard_aim",
+      "worldCard_stability"
+    ]
+  }
+]

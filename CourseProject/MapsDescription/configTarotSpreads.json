@@ -1,0 +1,27 @@
+[
+    
+  {
+    "title": "financialSpread_title",
+    "image":"fool"
+  },
+  {
+    "title": "onEveryDaySpread_title",
+    "image":"magicianCard"
+  },
+  {
+    "title": "lovelySpread_title",
+    "image":"highpriestessCard"
+  },
+  {
+    "title": "situationSpread_title",
+    "image":"empressCard"
+  },
+  {
+    "title": "healthySpread_title",
+    "image":"emperorCard"
+  },
+  {
+    "title": "personalGrowthSpread_title",
+    "image":"hierophantCard"
+  }
+]

@@ -1,20 +1,20 @@
 //
-//  TarotSpreadModel.swift
+//  FinancialSpreadModel.swift
 //  CourseProject
 //
-//  Created by Anastasiya Laptseva on 15.07.22.
+//  Created by Anastasiya Laptseva on 17.07.22.
 //
 
 import UIKit
 
-class TarotSpreadModel {
-    struct TarotSpreadJson: Decodable {
-        let title : String
+class FinancialSpreadModel {
+    struct FinancialSpreadJson: Decodable {
         let image: String
+        let descriptions : [String]
     }
     
-    let jsonPath = "configTarotSpreads"
-    var tarot: [TarotSpreadJson]?
+    let jsonPath = "configFinancial"
+    var cards: [FinancialSpreadJson]?
     
     init() {
         guard
@@ -23,7 +23,7 @@ class TarotSpreadModel {
         else { return }
 
         do {
-            tarot = try JSONDecoder().decode([TarotSpreadJson].self, from: data)
+            cards = try JSONDecoder().decode([FinancialSpreadJson].self, from: data)
             
         } catch {
             print(error)

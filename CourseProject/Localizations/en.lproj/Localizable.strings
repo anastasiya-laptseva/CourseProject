@@ -88,3 +88,16 @@
 "doomsdayCard_map_description" = "You can cope with any troubles and get out of impasses. Moreover, some problems will be solved without your participation at all. But it is important that you pay attention and seize the opportunity in time. If you manage, then fate guarantees success and pleasant bonuses. But rely solely on your own strength.";
 "worldCard_map_description" = "On this day, like never before, you will feel strength and harmony with the world around you. You can fully enjoy this day, its calm and favorable outlines. It will seem to you that everything is going as it should, or he simply will not attach any importance to any interference. If you are in need of a place where you can find shelter, then the card of the day guides you to take this step.";
 
+/*
+ Tarot
+ */
+
+"financialSpread_title" = "Financial Spread";
+"onEveryDaySpread_title" = "Every Day Spread";
+"lovelySpread_title" = "Lovely Spread";
+"situationSpread_title" = "Situation Spread";
+"healthySpread_title" = "Healthy Spread";
+"personalGrowthSpread_title" = "Personal Growth Spread";
+"buttonTarotMake" = "Make Tarot";
+"buttonTarotWrite" = "Write Tarot";
+
