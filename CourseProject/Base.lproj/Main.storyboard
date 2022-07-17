@@ -260,22 +260,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="6zI-MB-XOC">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="e6y-8w-kGM">
                                 <rect key="frame" x="0.0" y="44" width="414" height="798"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fbq-8y-996"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="6zI-MB-XOC" secondAttribute="trailing" id="12h-1k-cTY"/>
+                            <constraint firstItem="6zI-MB-XOC" firstAttribute="centerX" secondItem="fbq-8y-996" secondAttribute="centerX" id="7aB-X9-Zzc"/>
+                            <constraint firstAttribute="bottom" secondItem="6zI-MB-XOC" secondAttribute="bottom" id="B19-LO-0LR"/>
                             <constraint firstItem="fbq-8y-996" firstAttribute="trailing" secondItem="e6y-8w-kGM" secondAttribute="trailing" id="XPO-Le-CFX"/>
+                            <constraint firstItem="6zI-MB-XOC" firstAttribute="leading" secondItem="KeF-KL-9H1" secondAttribute="leading" id="ayQ-Q1-exB"/>
                             <constraint firstItem="fbq-8y-996" firstAttribute="bottom" secondItem="e6y-8w-kGM" secondAttribute="bottom" id="jHU-kZ-SC1"/>
                             <constraint firstItem="e6y-8w-kGM" firstAttribute="leading" secondItem="fbq-8y-996" secondAttribute="leading" id="t2n-Sf-zgU"/>
                             <constraint firstItem="e6y-8w-kGM" firstAttribute="top" secondItem="fbq-8y-996" secondAttribute="top" id="wRd-wp-wr8"/>
+                            <constraint firstItem="6zI-MB-XOC" firstAttribute="top" secondItem="KeF-KL-9H1" secondAttribute="top" id="xUw-yo-Krc"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="sSU-V2-feE"/>
@@ -369,7 +376,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mOI-63-QLN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1194" y="3479"/>
+            <point key="canvasLocation" x="-1193" y="2733"/>
         </scene>
         <!--Tarot Description View Controller-->
         <scene sceneID="OmS-7q-mUp">
@@ -379,6 +386,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Ajj-Sc-q56">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pF5-Uw-xnc">
                                 <rect key="frame" x="0.0" y="44" width="414" height="798"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -391,10 +401,15 @@
                         <viewLayoutGuide key="safeArea" id="jax-CA-21v"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="jax-CA-21v" firstAttribute="trailing" secondItem="pF5-Uw-xnc" secondAttribute="trailing" id="2RD-mQ-D10"/>
-                            <constraint firstItem="jax-CA-21v" firstAttribute="bottom" secondItem="pF5-Uw-xnc" secondAttribute="bottom" id="8GM-fY-ef7"/>
+                            <constraint firstAttribute="trailing" secondItem="pF5-Uw-xnc" secondAttribute="trailing" id="2RD-mQ-D10"/>
+                            <constraint firstAttribute="bottom" secondItem="pF5-Uw-xnc" secondAttribute="bottom" id="8GM-fY-ef7"/>
+                            <constraint firstItem="jax-CA-21v" firstAttribute="trailing" secondItem="Ajj-Sc-q56" secondAttribute="trailing" id="E19-f7-yGN"/>
+                            <constraint firstItem="Ajj-Sc-q56" firstAttribute="top" secondItem="JLy-tY-omT" secondAttribute="top" id="MAU-gj-4uY"/>
                             <constraint firstItem="pF5-Uw-xnc" firstAttribute="leading" secondItem="jax-CA-21v" secondAttribute="leading" id="URB-p6-5Nn"/>
                             <constraint firstItem="pF5-Uw-xnc" firstAttribute="top" secondItem="jax-CA-21v" secondAttribute="top" id="Unp-aa-N6N"/>
+                            <constraint firstItem="Ajj-Sc-q56" firstAttribute="leading" secondItem="JLy-tY-omT" secondAttribute="leading" id="V8S-mn-jbF"/>
+                            <constraint firstItem="jax-CA-21v" firstAttribute="bottom" secondItem="Ajj-Sc-q56" secondAttribute="bottom" id="gC7-tm-xd6"/>
+                            <constraint firstItem="Ajj-Sc-q56" firstAttribute="centerX" secondItem="jax-CA-21v" secondAttribute="centerX" id="lho-aZ-ChX"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="N4e-Eh-WVj"/>
@@ -404,7 +419,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pMF-an-DbE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1193" y="4173"/>
+            <point key="canvasLocation" x="-1194" y="3451"/>
         </scene>
         <!--Map Collection View Controller-->
         <scene sceneID="1mf-bA-KuD">
