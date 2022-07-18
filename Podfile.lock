@@ -55,12 +55,10 @@ PODS:
   - nanopb/decode (2.30909.0)
   - nanopb/encode (2.30909.0)
   - PromisesObjC (2.1.1)
-  - SwiftLint (0.47.1)
 
 DEPENDENCIES:
   - FirebaseAuth
   - GoogleSignIn
-  - SwiftLint
 
 SPEC REPOS:
   trunk:
@@ -76,7 +74,6 @@ SPEC REPOS:
     - GTMSessionFetcher
     - nanopb
     - PromisesObjC
-    - SwiftLint
 
 SPEC CHECKSUMS:
   AppAuth: 80317d99ac7ff2801a2f18ff86b48cd315ed465d
@@ -91,8 +88,7 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
-  SwiftLint: f80f1be7fa96d30e0aa68e58d45d4ea1ccaac519
 
-PODFILE CHECKSUM: bbe44f39d3cc9bf9924b55b7148d149ee8006fcd
+PODFILE CHECKSUM: 9ea5507763b165968346695e2e5761563247a3dc
 
 COCOAPODS: 1.11.3
