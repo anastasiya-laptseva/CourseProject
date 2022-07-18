@@ -108,29 +108,30 @@ A good card that tells about the bright and sunny streak of life. A person has a
  Financial Descriptions
  */
 
-"financial_title_status" = "financial_title_status";
-"financial_title_help" = "financial_title_help";
-"financial_title_aim" = "financial_title_aim";
-"financial_title_status_stability" = "financial_title_status_stability";
+"financial_title_status" = "True Status";
+"financial_title_help" = "Your helpers, tips and advice";
+"financial_title_aim" = "Aim worth aiming for";
+"financial_title_status_stability" = "What needs to be done to stabilize the situation";
 
-"fool_financial" = "fool_financial";
-"magicianCard_financial" = "magicianCard_financial";
-"highpriestessCard_financial" = "highpriestessCard_financial";
-"empressCard_financial" = "empressCard_financial";
-"emperorCard_financial" = "emperorCard_financial";
-"lovesCard_financial" = "lovesCard_financial";
-"chariotCard_financial" = "chariotCard_financial";
-"strengthCard_financial" = "strengthCard_financial";
-"hermitCard_financial" = "hermitCard_financial";
-"wheelOfFortune_financial" = "wheelOfFortune_financial";
-"justiceCard_financial" = "justiceCard_financial";
-"hangedCard_financial" = "hangedCard_financial";
-"deathCard_financial" = "deathCard_financial";
-"moderationCard_financial" = "moderationCard_financial";
-"devilCard_financial" = "devilCard_financial";
-"towerCard_financial" = "towerCard_financial";
-"starCard_financial" = "starCard_financial";
-"moonCard_financial" = "moonCard_financial";
-"sunCard_financial" = "sunCard_financial";
-"doomsdayCard_financial" = "doomsdayCard_financial";
-"worldCard_financial" = "worldCard_financial";
+"fool_financial" = "Don't waste your money on adventure and exploration. Want to go on a trip or learn a new skill? You can easily afford it now. Don't worry about the bills, better satisfy your curiosity.";
+"magicianCard_financial" = "With your entrepreneurial spirit and the use of your skills, you will be able to make a decent profit. Your knowledge and skills will be appreciated and help you earn.";
+"highpriestessCard_financial" = "You are quite impractical when it comes to money and possessions. You have the ability to intuitively make the right decision. There are hidden factors that influence the situation.";
+"empressCard_financial" = "You are financially stable, or you will soon be. Wise use of your material resources, and moreover, they are in abundance. Prosperity in monetary matters, growing wealth.";
+"emperorCard_financial" = "Potential for your financial success. Legal income. Manage your money wisely. Financial stabilization. A favorable home situation. Solving legal and real estate issues.";
+"hierophantCard_financial" = "You need to follow the instructions, play by the rules. The card doesn't rule out making a profit, but it still sets you in that direction, making it clear that money isn't the point.";
+"lovesCard_financial" = "Your alliance with a partner (business or non-business) is likely to make a profit. Your spouse or loved one may be of significant help. Receive financial support to develop the project.";
+"chariotCard_financial" = "Change of residence. In financial matters, improvement in financial position may occur over time through vigorous action. One of the ancient meanings is pride and luxury.";
+"strengthCard_financial" = "Through work, you will achieve financial well-being through your own work and the development of inclinations.";
+"hermitCard_financial" = "The hermit may be advising you to simply step aside from financial matters and look at things from a different angle, making it clear that money is not the point.";
+"wheelOfFortune_financial" = "Feels like you don't have any authority to decide these things, but usually things are looking up, some new opportunities are coming up. Prosperity, improvement, success due to circumstances that may seem like sheer luck. Possibility of an unexpected win.";
+"justiceCard_financial" = "Equal and fair distribution of income. Raising money fairly. Triumph of a worthy side in court in resolving a legal issue relating to property, money. This card can describe both the payment of a debt and the receipt of monetary compensation. Financial balance. Dealing with tax issues .";
+"hangedCard_financial" = "Loss of funds. Loss of housing (of course, there should be other indications in the layout of the risk of such a development of events). The need to save, reduce expenses, tighten the belt. Material losses. Loss of sources of income. Forced to sell some values, part with something.";
+"deathCard_financial" = "Loss of job, source of income (very typical). A global change in financial situation. This can be either the end of a difficult period or a decrease in income, other cards of the spread can give a hint.";
+"moderationCard_financial" = "Moderation hints at financial savings and rarely pleases those who dream of great wealth. But it is understood, felt and appreciated by those who have had to lose their financial balance, as a rule, due to their own carelessness and immoderation.";
+"devilCard_financial" = "The devil is a symbol of profit and venality, commercialism and interest-bearing. It speaks of a focus on material wealth alone. It is also an unstoppable lust to keep chasing new acquisitions.";
+"towerCard_financial" = "Job change, professional setbacks, competitive defeat, sudden firm bankruptcy or work project collapse, loss of prestige, influence, removal from office, ventures, unsustainable business, loss of money, poverty all of a sudden .";
+"starCard_financial" = "A star signifies that material goals are within reach. As you work to secure your future financially, remember to appreciate what you already have, it will inspire you to move forward.";
+"moonCard_financial" = "Illicit business, shady dealings, double bottom contracts, fears and worries about work, confusing employment relationships, deceit, slander, frustration, bad influences, unforeseen dark circumstances - all of these are in possession of this card. Often, the Moon is associated with creative individuals who react very subtly to the phenomena of the world around them and sometimes run away from reality. Also, psychics, mediums, magicians, psychotherapists, magicians, illusionists can pass through this Arcana - people who one way or another interact with the dark side of things, phenomena, human personality.";
+"sunCard_financial" = "The sun card indicates that a bright streak is coming in life, complete satisfaction with one's work and its results, a warm atmosphere within the work team, professional growth, self-realization, successful business, wealth, successful investments, a period of prosperity and well-being , creative professions.";
+"doomsdayCard_financial" = "Getting out of a crisis, an invitation to a new job, important tasks of responsibility, development in a professional field, career growth, implementation of creative plans, a fundamental change in the financial situation, sometimes returning to old projects after a state of stagnation. Professions of the Court card related to show business, court cases, rhetoric, teaching, as well as work involving public speaking.";
+"worldCard_financial" = "The World Card is a total success achieved by one's own efforts, following one's true calling, triumph, victory, ending an old stage and starting a new one, resting on one's laurels, great achievements, expanding business, going international (for companies) . In matters of finance - the successful resolution of all problems, buying your own house, receiving an inheritance. ";
