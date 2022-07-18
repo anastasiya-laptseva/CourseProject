@@ -60,20 +60,25 @@ class FinancialSpreadViewController: UIViewController {
         
         var model = [FinancialSpreadModel.FinancialSpreadJson]()
         if let modelSave = modelSave {
+            //load from save
             model = modelSave
         } else {
+            //random
             for element in pick4Elements {
                 model.append(element)
             }
             
+            //save to core data
             let jsonEncoder = JSONEncoder()
             do {
-                //Save to Coredata
+                //prepare json
                 let jsonData = try jsonEncoder.encode(model)
                 let json = String(data: jsonData, encoding: .utf8)
+                //prepare date
                 let dateFormatterGet = DateFormatter()
                 dateFormatterGet.dateFormat = "MM-dd-yyyy HH:mm:ss"
                 let date = dateFormatterGet.string(from: Date.now)
+                //invoke method coredata
                 saveName(date: date, save: json ?? "")
             } catch {
             }

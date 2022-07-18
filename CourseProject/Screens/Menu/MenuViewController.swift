@@ -32,7 +32,7 @@ class MenuViewController: UIViewController {
         tableView.delegate = self
         
         setCardOfDay()
-        debugNextClick(self)
+//        debugNextClick(self)
         
         //TODO: Check card
         //numberCardsDay = 1
@@ -42,7 +42,9 @@ class MenuViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         buttonMapOfDay.setTitle(getLocale(key: "buttomMapOfDay"), for: .normal)
-        setupImage()
+        if isOpenCard {
+            setupImage()
+        }
         tableView.reloadData()
     }
 

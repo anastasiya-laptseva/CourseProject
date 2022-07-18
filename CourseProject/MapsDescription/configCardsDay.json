@@ -49,43 +49,43 @@
     "image": "justiceCard"
   },
   {
-    "description": "hangedCard",
+    "description": "hangedCard_description",
     "image": "hangedCard"
   },
   {
-    "description": "deathCard",
+    "description": "deathCard_description",
     "image": "deathCard"
   },
   {
-    "description": "moderationCard",
+    "description": "moderationCard_description",
     "image": "moderationCard"
   },
   {
-    "description": "devilCard",
+    "description": "devilCard_description",
     "image": "devilCard"
   },
   {
-    "description": "towerCard",
+    "description": "towerCard_description",
     "image": "towerCard"
   },
   {
-    "description": "starCard",
+    "description": "starCard_description",
     "image": "starCard"
   },
   {
-    "description": "moonCard",
+    "description": "moonCard_description",
     "image": "moonCard"
   },
   {
-    "description": "sunCard",
+    "description": "sunCard_description",
     "image": "sunCard"
   },
   {
-    "description": "doomsdayCard",
+    "description": "doomsdayCard_description",
     "image": "doomsdayCard"
   },
   {
-    "description": "worldCard",
+    "description": "worldCard_description",
     "image": "worldCard"
   }
 ]
