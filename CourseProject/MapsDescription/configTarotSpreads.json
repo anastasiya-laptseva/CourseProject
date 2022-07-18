@@ -1,0 +1,27 @@
+[
+    
+  {
+    "title": "financialSpread_title",
+    "image":"shirt"
+  },
+  {
+    "title": "onEveryDaySpread_title",
+    "image":"magicianCard_en"
+  },
+  {
+    "title": "lovelySpread_title",
+    "image":"highpriestessCard_en"
+  },
+  {
+    "title": "situationSpread_title",
+    "image":"empressCard_en"
+  },
+  {
+    "title": "healthySpread_title",
+    "image":"emperorCard_en"
+  },
+  {
+    "title": "personalGrowthSpread_title",
+    "image":"hierophantCard_en"
+  }
+]

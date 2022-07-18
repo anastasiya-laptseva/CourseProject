@@ -1,0 +1,86 @@
+[
+  {
+    "image": "fool",
+    "description": "fool_financial"
+  },
+  {
+    "image": "magicianCard",
+    "description": "magicianCard_financial"
+  },
+  {
+    "image": "highpriestessCard",
+    "description": "highpriestessCard_financial"
+  },
+  {
+    "image": "empressCard",
+    "description": "empressCard_financial"
+  },
+  {
+    "image": "emperorCard",
+    "description": "emperorCard_financial"
+  },
+  {
+    "image": "lovesCard",
+    "description": "lovesCard_financial"
+  },
+  {
+    "image": "chariotCard",
+    "description": "chariotCard_financial"
+  },
+  {
+    "image": "strengthCard",
+    "description": "strengthCard_financial"
+  },
+  {
+    "image": "hermitCard",
+    "description": "hermitCard_financial"
+  },
+  {
+    "image": "wheelOfFortune",
+    "description": "wheelOfFortune_financial"
+  },
+  {
+    "image": "justiceCard",
+    "description": "justiceCard_financial"
+  },
+  {
+    "image": "hangedCard",
+    "description": "hangedCard_financial"
+  },
+  {
+    "image": "deathCard",
+    "description": "deathCard_financial"
+  },
+  {
+    "image": "moderationCard",
+    "description": "moderationCard_financial"
+  },
+  {
+    "image": "devilCard",
+    "description": "devilCard_financial"
+  },
+  {
+    "image": "towerCard",
+    "description": "towerCard_financial"
+  },
+  {
+    "image": "starCard",
+    "description": "starCard_financial"
+  },
+  {
+    "image": "moonCard",
+    "description": "moonCard_financial"
+  },
+  {
+    "image": "sunCard",
+    "description": "sunCard_financial"
+  },
+  {
+    "image": "doomsdayCard",
+    "description": "doomsdayCard_financial"
+  },
+  {
+    "image": "worldCard",
+    "description": "worldCard_financial"
+  }
+]

@@ -11,7 +11,7 @@ enum MenuModel: Int, CustomStringConvertible {
     case tarotSpreads
     case description
     case preservation
-    case notes
+    case video
     case settings
     
     var description: String {
@@ -19,7 +19,7 @@ enum MenuModel: Int, CustomStringConvertible {
         case .tarotSpreads: return "tarotSpreadsMenu"
         case .description: return "descriptionMenu"
         case .preservation: return "preservationMenu"
-        case .notes: return "notesMenu"
+        case .video: return "videoMenu"
         case .settings: return "settingsMenu"
         }
     }
@@ -28,7 +28,7 @@ enum MenuModel: Int, CustomStringConvertible {
         case .tarotSpreads: return UIImage(named: "tarotSpreads") ?? UIImage()
         case .description: return UIImage(named: "description") ?? UIImage()
         case .preservation: return UIImage(named: "preservation") ?? UIImage()
-        case .notes: return UIImage(named: "notes") ?? UIImage()
+        case .video: return UIImage(named: "video") ?? UIImage()
         case .settings: return UIImage(named: "settings") ?? UIImage()
         }
     }

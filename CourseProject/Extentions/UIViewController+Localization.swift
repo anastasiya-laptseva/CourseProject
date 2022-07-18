@@ -10,8 +10,6 @@ import UIKit
 extension UIViewController {
     
     func getLocale(key: String) -> String {
-        let locale = NSLocalizedString(key, comment: "")
-        return locale
+        return key.localized()
     }
-    
 }
