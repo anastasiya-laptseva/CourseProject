@@ -263,11 +263,11 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="6zI-MB-XOC">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="e6y-8w-kGM">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="e6y-8w-kGM">
                                 <rect key="frame" x="0.0" y="44" width="414" height="798"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -389,11 +389,10 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Ajj-Sc-q56">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pF5-Uw-xnc">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pF5-Uw-xnc">
                                 <rect key="frame" x="0.0" y="44" width="414" height="798"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" systemColor="labelColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -403,12 +402,12 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="pF5-Uw-xnc" secondAttribute="trailing" id="2RD-mQ-D10"/>
                             <constraint firstAttribute="bottom" secondItem="pF5-Uw-xnc" secondAttribute="bottom" id="8GM-fY-ef7"/>
-                            <constraint firstItem="jax-CA-21v" firstAttribute="trailing" secondItem="Ajj-Sc-q56" secondAttribute="trailing" id="E19-f7-yGN"/>
+                            <constraint firstAttribute="trailing" secondItem="Ajj-Sc-q56" secondAttribute="trailing" id="E19-f7-yGN"/>
                             <constraint firstItem="Ajj-Sc-q56" firstAttribute="top" secondItem="JLy-tY-omT" secondAttribute="top" id="MAU-gj-4uY"/>
                             <constraint firstItem="pF5-Uw-xnc" firstAttribute="leading" secondItem="jax-CA-21v" secondAttribute="leading" id="URB-p6-5Nn"/>
                             <constraint firstItem="pF5-Uw-xnc" firstAttribute="top" secondItem="jax-CA-21v" secondAttribute="top" id="Unp-aa-N6N"/>
                             <constraint firstItem="Ajj-Sc-q56" firstAttribute="leading" secondItem="JLy-tY-omT" secondAttribute="leading" id="V8S-mn-jbF"/>
-                            <constraint firstItem="jax-CA-21v" firstAttribute="bottom" secondItem="Ajj-Sc-q56" secondAttribute="bottom" id="gC7-tm-xd6"/>
+                            <constraint firstAttribute="bottom" secondItem="Ajj-Sc-q56" secondAttribute="bottom" id="gC7-tm-xd6"/>
                             <constraint firstItem="Ajj-Sc-q56" firstAttribute="centerX" secondItem="jax-CA-21v" secondAttribute="centerX" id="lho-aZ-ChX"/>
                         </constraints>
                     </view>
@@ -525,7 +524,7 @@
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="9f6-ho-93X">
                                 <rect key="frame" x="0.0" y="44" width="414" height="798"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.68602113049439706" green="0.68602113049439706" blue="0.68602113049439706" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="P9f-7s-ESD"/>

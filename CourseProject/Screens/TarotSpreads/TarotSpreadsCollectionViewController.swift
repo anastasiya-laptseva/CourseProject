@@ -46,7 +46,7 @@ class TarotSpreadsCollectionViewController: UICollectionViewController {
             cell.isUserInteractionEnabled = false
         }
         else {
-            cell.contentView.backgroundColor = .black
+            cell.contentView.backgroundColor = .gray
         }
     
         return cell
