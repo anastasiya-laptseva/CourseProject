@@ -9,7 +9,6 @@ import UIKit
 
 class TarotSpreadsCell: UICollectionViewCell {
     static let reuseID = "taroSpreadCell"
-    
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var labelView: UILabel!
     

@@ -8,7 +8,6 @@
 import UIKit
 
 extension UIViewController {
-    
     func getLocale(key: String) -> String {
         return key.localized()
     }

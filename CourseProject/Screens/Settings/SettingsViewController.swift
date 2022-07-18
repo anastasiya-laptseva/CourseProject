@@ -12,14 +12,12 @@ class SettingsViewController: UIViewController {
     @IBOutlet weak var themeTitle: UILabel!
     @IBOutlet weak var languageButton: UIButton!
     @IBOutlet weak var themeButton: UIButton!
-    
     var language: LanguageModel = .en
     var theme: ThemeModel = .light
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         let appLang = UserDefaults.standard.string(forKey: "app_lang") ?? "ru"
-        switch(appLang) {
+        switch (appLang) {
         case "en":
             language = .en
             break
@@ -30,14 +28,12 @@ class SettingsViewController: UIViewController {
         getLanguage()
         getTheme()
     }
-    
     @IBAction func languageClick(_ sender: Any) {
         if language == .en {
             language = .ru
         } else {
             language = .en
         }
-        
         getLanguage()
     }
     
@@ -49,7 +45,6 @@ class SettingsViewController: UIViewController {
         }
         getTheme()
     }
-    
     func getLanguage() {
         switch language {
         case .en:
@@ -65,7 +60,5 @@ class SettingsViewController: UIViewController {
         themeButton.setTitle(getLocale(key: theme.description), for: .normal)
     }
     func getTheme() {
-        
     }
 }
-

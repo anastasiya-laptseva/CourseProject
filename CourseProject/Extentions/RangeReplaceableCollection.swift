@@ -10,7 +10,7 @@ extension RangeReplaceableCollection {
     var shuffled: Self { .init(shuffled()) }
     /// Shuffles this Collection in place
     @discardableResult
-    mutating func shuffledInPlace() -> Self  {
+    mutating func shuffledInPlace() -> Self {
         self = shuffled
         return self
     }

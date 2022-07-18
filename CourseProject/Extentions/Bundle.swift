@@ -16,10 +16,8 @@ extension Bundle {
             let path = Bundle.main.path(forResource: appLang, ofType: "lproj")
             bundle = Bundle(path: path!)
         }
-
-        return bundle;
+        return bundle
     }
-
     public static func setLanguage(lang: String) {
         UserDefaults.standard.set(lang, forKey: "app_lang")
         let path = Bundle.main.path(forResource: lang, ofType: "lproj")

@@ -10,13 +10,12 @@ import GoogleSignIn
 import FirebaseCore
 import FirebaseAuth
 
-
 class AuthViewController: UIViewController {
     var authModel: AuthModel?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //for easy test
+        // for easy test
         goToMenu()
     }
 
@@ -45,7 +44,6 @@ class AuthViewController: UIViewController {
                                                      accessToken: authentication.accessToken)
 
             authModel = AuthModel(credential: credential)
-            
             goToMenu()
         }
     }

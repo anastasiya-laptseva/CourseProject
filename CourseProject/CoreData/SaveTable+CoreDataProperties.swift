@@ -9,7 +9,6 @@
 import Foundation
 import CoreData
 
-
 extension SaveTable {
 
     @nonobjc public class func fetchRequest() -> NSFetchRequest<SaveTable> {

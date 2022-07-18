@@ -9,7 +9,7 @@ import UIKit
 
 class TarotSpreadModel {
     struct TarotSpreadJson: Decodable {
-        let title : String
+        let title: String
         let image: String
     }
     
@@ -24,7 +24,6 @@ class TarotSpreadModel {
 
         do {
             tarot = try JSONDecoder().decode([TarotSpreadJson].self, from: data)
-            
         } catch {
             print(error)
         }

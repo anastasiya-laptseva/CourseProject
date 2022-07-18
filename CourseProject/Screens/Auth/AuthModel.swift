@@ -10,10 +10,8 @@ import GoogleSignIn
 import FirebaseCore
 import FirebaseAuth
 
-
 class AuthModel {
     var credential: AuthCredential
-    
     init(credential: AuthCredential) {
         self.credential = credential
     }

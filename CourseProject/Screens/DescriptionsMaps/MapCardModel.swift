@@ -9,7 +9,7 @@ import UIKit
 
 class MapCardsDayModel {
     struct MapCardsJson: Decodable {
-        let description : String
+        let description: String
         let image: String
     }
     

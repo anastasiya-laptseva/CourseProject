@@ -20,7 +20,6 @@ class SavesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: Self.cellIdentifier)
         
         tableView.delegate = self
@@ -28,7 +27,6 @@ class SavesViewController: UIViewController {
         
         saves = loadSave()
     }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let controller = segue.destination as? FinancialSpreadViewController {
             controller.currentSave = selectSave
@@ -45,7 +43,6 @@ extension SavesViewController: UITableViewDelegate {
 }
 
 extension SavesViewController: UITableViewDataSource {
-    
     func numberOfSections(in tableView: UITableView) -> Int {
         1
     }
@@ -58,9 +55,7 @@ extension SavesViewController: UITableViewDataSource {
         if let date = saves[indexPath.row].dateField {
             configuration.text = "\(date)"
         }
-        
         cell.contentConfiguration = configuration
-        
         return cell
     }
 }
