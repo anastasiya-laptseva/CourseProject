@@ -473,10 +473,10 @@
             </objects>
             <point key="canvasLocation" x="-430" y="2023"/>
         </scene>
-        <!--Preservation View Controller-->
+        <!--Saves View Controller-->
         <scene sceneID="Qa8-Qh-2IE">
             <objects>
-                <viewController id="RHR-Y1-rRf" customClass="PreservationViewController" customModule="CourseProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="RHR-Y1-rRf" customClass="SavesViewController" customModule="CourseProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="olp-sv-nAV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -505,6 +505,7 @@
                     <navigationItem key="navigationItem" id="qFH-nM-pxA"/>
                     <connections>
                         <outlet property="tableView" destination="yNp-Nh-9b6" id="duU-7W-mCq"/>
+                        <segue destination="i3j-EZ-mEX" kind="show" identifier="loadFromSaveSegue" id="bSu-0k-5Ij"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FaP-su-G2y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -714,6 +715,9 @@
             <point key="canvasLocation" x="-1194" y="2023"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="bSu-0k-5Ij"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="background" width="87" height="144"/>
         <image name="burger" width="500" height="500"/>

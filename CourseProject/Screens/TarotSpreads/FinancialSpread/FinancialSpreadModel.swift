@@ -8,7 +8,7 @@
 import UIKit
 
 class FinancialSpreadModel {
-    struct FinancialSpreadJson: Decodable {
+    struct FinancialSpreadJson: Encodable, Decodable {
         let image: String
         let description : String
     }

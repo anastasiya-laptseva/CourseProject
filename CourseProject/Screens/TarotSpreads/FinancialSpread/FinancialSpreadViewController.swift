@@ -23,6 +23,9 @@ class FinancialSpreadViewController: UIViewController {
     private let descriptionSegue = "tarotDescriptionSegue"
     private var descriptionString = ""
     
+    var currentSave: SaveTable?
+    var isLoadFromSave = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         arraySpreadImages.append(imageView1)
@@ -30,12 +33,17 @@ class FinancialSpreadViewController: UIViewController {
         arraySpreadImages.append(imageView3)
         arraySpreadImages.append(imageView4)
         button.setTitle(getLocale(key: "buttonTarotMake"), for: .normal)
+        
+        if currentSave != nil {
+            loadFromSave()
+            currentSave = nil
+        }
     }
     
     @IBAction func onButtonClick(_ sender: Any) {
         switch step {
         case 0:
-            prepareTarot()
+            prepareTarot(modelSave: nil)
             button.setTitle(getLocale(key: "buttonTarotWrite"), for: .normal)
             break
         default:
@@ -45,14 +53,37 @@ class FinancialSpreadViewController: UIViewController {
         step = 1
     }
     
-    func prepareTarot() {
+    func prepareTarot(modelSave: [FinancialSpreadModel.FinancialSpreadJson]?) {
         button.isUserInteractionEnabled = false
+        
         guard let pick4Elements = financialModel.cards?.choose(arraySpreadImages.count) else { return }
+        
+        var model = [FinancialSpreadModel.FinancialSpreadJson]()
+        if let modelSave = modelSave {
+            model = modelSave
+        } else {
+            for element in pick4Elements {
+                model.append(element)
+            }
+            
+            let jsonEncoder = JSONEncoder()
+            do {
+                //Save to Coredata
+                let jsonData = try jsonEncoder.encode(model)
+                let json = String(data: jsonData, encoding: .utf8)
+                let dateFormatterGet = DateFormatter()
+                dateFormatterGet.dateFormat = "MM-dd-yyyy HH:mm:ss"
+                let date = dateFormatterGet.string(from: Date.now)
+                saveName(date: date, save: json ?? "")
+            } catch {
+            }
+        }
+        
         
         let arrayTitles = ["financial_title_status", "financial_title_help", "financial_title_aim", "financial_title_status_stability"]
         
-        for index in 0..<pick4Elements.count {
-            let imageName = pick4Elements[index].image
+        for index in 0..<model.count {
+            let imageName = model[index].image
             
             let imageView = arraySpreadImages[index]
             imageView.image = getImage(key: imageName)
@@ -60,7 +91,7 @@ class FinancialSpreadViewController: UIViewController {
                 self.button.isUserInteractionEnabled = true
             }
             
-            let description = pick4Elements[index].description
+            let description = model[index].description
             let localeTitle = getLocale(key: arrayTitles[index])
             let localePoint = getLocale(key: description)
            
@@ -99,5 +130,23 @@ class FinancialSpreadViewController: UIViewController {
         if let descruptionController = segue.destination as? TarotDescriptionViewController {
             descruptionController.descriptionText = descriptionString
         }
+    }
+    
+    func loadFromSave() {
+        step = 1
+        button.setTitle(getLocale(key: "buttonTarotWrite"), for: .normal)
+        
+        var model = [FinancialSpreadModel.FinancialSpreadJson]()
+        if let json = currentSave?.saveField {
+            do {
+                let data = Data(json.utf8)
+                model = try JSONDecoder().decode([FinancialSpreadModel.FinancialSpreadJson].self, from: data)
+            }
+            catch {
+                
+            }
+        }
+        
+        prepareTarot(modelSave: model)
     }
 }
