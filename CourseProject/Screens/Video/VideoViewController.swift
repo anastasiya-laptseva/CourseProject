@@ -24,7 +24,6 @@ class VideoViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
     }
-
 }
 extension VideoViewController: UITableViewDelegate {
 }
