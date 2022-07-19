@@ -24,6 +24,7 @@ class MenuViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // change buttonMap with key
         buttonMapOfDay.setTitle(getLocale(key: "buttomMapOfDay"), for: .normal)
         tableView.dataSource = self
         tableView.delegate = self

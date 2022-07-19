@@ -15,6 +15,22 @@ class AuthViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        // notifications
+//        UNUserNotificationCenter.current().requestAuthorization(options: .alert) { result, error in
+//            print(result)
+//            print(error)
+//        }
+        let content = UNMutableNotificationContent()
+        content.title = "The card of the day is waiting for you!"
+        content.subtitle = "See what events await you today!"
+        let timeTrigger = UNTimeIntervalNotificationTrigger(timeInterval: 10.0, repeats: false)
+        let request = UNNotificationRequest(identifier: "test notification",
+                              content: content,
+                              trigger: timeTrigger)
+        UNUserNotificationCenter.current().add(request) { error in
+            print(error)
+        }
+        
         // for easy test
         goToMenu()
     }

@@ -13,6 +13,8 @@
 			</array>
 		</dict>
 	</array>
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>to annoy you</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
