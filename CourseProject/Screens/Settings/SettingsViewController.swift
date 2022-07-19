@@ -28,6 +28,9 @@ class SettingsViewController: UIViewController {
         getLanguage()
         getTheme()
     }
+    @IBAction func crashClick(_ sender: Any) {
+        fatalError("Mega Crash")
+    }
     @IBAction func languageClick(_ sender: Any) {
         if language == .en {
             language = .ru

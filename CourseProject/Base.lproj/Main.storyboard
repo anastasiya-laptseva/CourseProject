@@ -626,6 +626,21 @@
                                     </view>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ne4-n6-bqQ">
+                                <rect key="frame" x="157" y="761" width="100" height="31"/>
+                                <color key="backgroundColor" red="0.68602113050000002" green="0.68602113050000002" blue="0.68602113050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="bvz-tt-L2P" userLabel="width = 100"/>
+                                    <constraint firstAttribute="height" constant="31" id="vfo-r8-eeZ" userLabel="height = 50"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="CRASH">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="crashClick:" destination="s6X-oA-xME" eventType="primaryActionTriggered" id="hoN-jA-Hqz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vBo-nu-BAA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -633,6 +648,8 @@
                             <constraint firstItem="vBo-nu-BAA" firstAttribute="trailing" secondItem="b15-pk-owD" secondAttribute="trailing" id="BPt-P5-Upl"/>
                             <constraint firstItem="O4S-k8-uki" firstAttribute="top" secondItem="mLl-du-gDO" secondAttribute="top" id="Ksh-23-6OW"/>
                             <constraint firstItem="O4S-k8-uki" firstAttribute="leading" secondItem="vBo-nu-BAA" secondAttribute="leading" id="MS2-BE-454"/>
+                            <constraint firstItem="ne4-n6-bqQ" firstAttribute="centerX" secondItem="vBo-nu-BAA" secondAttribute="centerX" id="WAA-nK-JaW"/>
+                            <constraint firstItem="vBo-nu-BAA" firstAttribute="bottom" secondItem="ne4-n6-bqQ" secondAttribute="bottom" constant="50" id="d7H-51-S7S"/>
                             <constraint firstItem="b15-pk-owD" firstAttribute="leading" secondItem="vBo-nu-BAA" secondAttribute="leading" id="iGy-id-ifI"/>
                             <constraint firstItem="b15-pk-owD" firstAttribute="top" secondItem="vBo-nu-BAA" secondAttribute="top" id="qdE-Zr-75M"/>
                             <constraint firstItem="vBo-nu-BAA" firstAttribute="trailing" secondItem="O4S-k8-uki" secondAttribute="trailing" id="qzd-ZT-SPj"/>
@@ -716,7 +733,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="bSu-0k-5Ij"/>
+        <segue reference="p6f-zb-L1n"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="background" width="87" height="144"/>
