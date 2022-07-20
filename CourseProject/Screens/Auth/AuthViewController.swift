@@ -15,7 +15,7 @@ class AuthViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // notifications
+//         notifications
 //        UNUserNotificationCenter.current().requestAuthorization(options: .alert) { result, error in
 //            print(result)
 //            print(error)
@@ -30,7 +30,6 @@ class AuthViewController: UIViewController {
         UNUserNotificationCenter.current().add(request) { error in
             print(error)
         }
-        
         // for easy test
         goToMenu()
     }
