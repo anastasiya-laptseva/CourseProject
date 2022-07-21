@@ -57,7 +57,6 @@ class AuthViewController: UIViewController {
 
             let credential = GoogleAuthProvider.credential(withIDToken: idToken,
                                                      accessToken: authentication.accessToken)
-
             authModel = AuthModel(credential: credential)
             goToMenu()
         }
