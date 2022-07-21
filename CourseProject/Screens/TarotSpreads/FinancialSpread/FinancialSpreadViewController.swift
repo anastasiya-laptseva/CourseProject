@@ -8,6 +8,7 @@
 import UIKit
 
 class FinancialSpreadViewController: UIViewController {
+    // переменные элементов на экране
     @IBOutlet weak var imageView3: UIImageView!
     @IBOutlet weak var imageView4: UIImageView!
     @IBOutlet weak var imageView2: UIImageView!
@@ -15,7 +16,6 @@ class FinancialSpreadViewController: UIViewController {
     @IBOutlet weak var button: UIButton!
     
     var arraySpreadImages = [UIImageView]()
-    
     let financialModel = FinancialSpreadModel()
     var step = 0
     private let descriptionSegue = "tarotDescriptionSegue"
@@ -94,8 +94,6 @@ class FinancialSpreadViewController: UIViewController {
             descriptionString.append("\n")
             // Добавление пункта
             descriptionString.append("\(localePoint)")
-            descriptionString.append("\n")
-            descriptionString.append("\n")
             descriptionString.append("\n")
             descriptionString.append("\n")
         }

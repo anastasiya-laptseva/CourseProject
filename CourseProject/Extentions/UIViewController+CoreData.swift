@@ -9,6 +9,7 @@ import UIKit
 import CoreData
 
 extension UIViewController {
+    //сохраняемые переменные
     private static let tableName = "SaveTable"
     private static let dateField = "dateField"
     private static let saveField = "saveField"

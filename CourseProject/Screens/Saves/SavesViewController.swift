@@ -10,18 +10,15 @@ import CoreData
 
 class SavesViewController: UIViewController {
     let segue = "loadFromSaveSegue"
-    
     static let cellIdentifier = "cell"
-    
-    @IBOutlet var tableView: UITableView!
-    
     var saves = [SaveTable]()
     var selectSave: SaveTable?
+    
+    @IBOutlet var tableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: Self.cellIdentifier)
-        
         tableView.delegate = self
         tableView.dataSource = self
         
@@ -33,7 +30,6 @@ class SavesViewController: UIViewController {
         }
     }
 }
-
 extension SavesViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
@@ -41,7 +37,6 @@ extension SavesViewController: UITableViewDelegate {
         self.performSegue(withIdentifier: segue, sender: self)
     }
 }
-
 extension SavesViewController: UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         1
@@ -56,7 +51,6 @@ extension SavesViewController: UITableViewDataSource {
             configuration.text = "\(date)"
         }
         cell.backgroundColor = .gray
-        
         cell.contentConfiguration = configuration
         return cell
     }

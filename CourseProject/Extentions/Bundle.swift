@@ -9,7 +9,6 @@ import UIKit
 
 extension Bundle {
     private static var bundle: Bundle!
-
     public static func localizedBundle() -> Bundle! {
         if bundle == nil {
             let appLang = UserDefaults.standard.string(forKey: "app_lang") ?? "ru"
