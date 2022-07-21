@@ -18,8 +18,6 @@ class VideoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.backgroundColor = .clear
-//        cell.backgroundColor = .clear
-//        tableView.tableFooterView = UIView()
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: Self.cellIdentifier)
         tableView.delegate = self
         tableView.dataSource = self
@@ -51,6 +49,7 @@ extension VideoViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: Self.cellIdentifier, for: indexPath)
         var configuration = cell.defaultContentConfiguration()
         configuration.text = "\(videoModel.playlist?[indexPath.row].title ?? "")"
+        cell.backgroundColor = .gray
         cell.contentConfiguration = configuration
         return cell
     }

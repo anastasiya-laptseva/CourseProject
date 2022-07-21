@@ -55,6 +55,8 @@ extension SavesViewController: UITableViewDataSource {
         if let date = saves[indexPath.row].dateField {
             configuration.text = "\(date)"
         }
+        cell.backgroundColor = .gray
+        
         cell.contentConfiguration = configuration
         return cell
     }

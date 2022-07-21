@@ -116,6 +116,7 @@ extension MenuViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: MenuTableViewCell.reuseID) as! MenuTableViewCell
         let menuModel = MenuModel(rawValue: indexPath.row)
+        cell.backgroundColor = .gray
         cell.imageMenu.image = menuModel?.image
         cell.nameMenu.text = getLocale(key: menuModel?.description ?? "")
         return cell

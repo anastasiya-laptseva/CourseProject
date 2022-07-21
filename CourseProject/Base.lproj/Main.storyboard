@@ -121,6 +121,7 @@
                                     <constraint firstAttribute="height" constant="215" id="lqn-H6-RJW"/>
                                     <constraint firstAttribute="width" constant="200" id="nD3-Bz-rGE"/>
                                 </constraints>
+                                <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="menuCell" id="Tiy-TL-UoL" customClass="MenuTableViewCell" customModule="CourseProject" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="200" height="43.5"/>
@@ -487,6 +488,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="yNp-Nh-9b6">
                                 <rect key="frame" x="0.0" y="44" width="414" height="798"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="b3H-Dh-N1x"/>
@@ -526,6 +528,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="9f6-ho-93X">
                                 <rect key="frame" x="0.0" y="44" width="414" height="798"/>
                                 <color key="backgroundColor" red="0.68602113049439706" green="0.68602113049439706" blue="0.68602113049439706" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="P9f-7s-ESD"/>
@@ -733,7 +736,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="p6f-zb-L1n"/>
+        <segue reference="bSu-0k-5Ij"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="background" width="87" height="144"/>
