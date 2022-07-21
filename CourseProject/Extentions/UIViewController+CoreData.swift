@@ -9,6 +9,7 @@ import UIKit
 import CoreData
 
 extension UIViewController {
+    //сохраняемые переменные
     private static let tableName = "SaveTable"
     private static let dateField = "dateField"
     private static let saveField = "saveField"
@@ -17,31 +18,23 @@ extension UIViewController {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         let managedContext = appDelegate.persistentContainer.viewContext
         let entity =  NSEntityDescription.entity(forEntityName: UIViewController.tableName, in: managedContext)
-        let person = NSManagedObject(entity: entity!, insertInto:managedContext)
+        let person = NSManagedObject(entity: entity!, insertInto: managedContext)
         person.setValue(date, forKey: UIViewController.dateField)
         person.setValue(save, forKey: UIViewController.saveField)
         do {
             try managedContext.save()
-        }
-        catch {
-            
+        } catch {
         }
     }
-    
     func loadSave() -> [SaveTable] {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         let managedContext = appDelegate.persistentContainer.viewContext
-        
         let fetchRequest: NSFetchRequest<SaveTable> = SaveTable.fetchRequest()
         do {
             let objects = try managedContext.fetch(fetchRequest)
             return objects.reversed()
+        } catch {            
         }
-        catch {
-            
-        }
-        
         return [SaveTable]()
     }
-    
 }

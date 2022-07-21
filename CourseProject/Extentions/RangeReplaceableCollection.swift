@@ -6,11 +6,11 @@
 //
 
 extension RangeReplaceableCollection {
-    /// Returns a new Collection shuffled
+    // Возвращает новую коллекцию в случайном порядке
     var shuffled: Self { .init(shuffled()) }
-    /// Shuffles this Collection in place
+    // Перемешивает эту коллекцию на месте
     @discardableResult
-    mutating func shuffledInPlace() -> Self  {
+    mutating func shuffledInPlace() -> Self {
         self = shuffled
         return self
     }

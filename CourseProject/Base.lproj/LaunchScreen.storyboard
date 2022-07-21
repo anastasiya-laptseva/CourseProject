@@ -15,8 +15,41 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="dib-Vk-oLH">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TaroList" translatesAutoresizingMaskIntoConstraints="NO" id="IEA-w7-JzV">
+                                <rect key="frame" x="87" y="389" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="eMs-Ug-tTI"/>
+                                    <constraint firstAttribute="height" constant="128" id="yE6-1E-4WN"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uh7-Bq-JRh">
+                                <rect key="frame" x="87" y="289" width="240" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="pcv-WH-1bA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Uh7-Bq-JRh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="345-iw-C9y"/>
+                            <constraint firstItem="dib-Vk-oLH" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="5fe-qX-YfW"/>
+                            <constraint firstItem="IEA-w7-JzV" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="7Rb-aL-mRk"/>
+                            <constraint firstItem="Uh7-Bq-JRh" firstAttribute="trailing" secondItem="IEA-w7-JzV" secondAttribute="trailing" id="H87-Ty-WEm"/>
+                            <constraint firstAttribute="trailing" secondItem="dib-Vk-oLH" secondAttribute="trailing" id="STm-Ez-bX4"/>
+                            <constraint firstItem="dib-Vk-oLH" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ggM-9h-FpS"/>
+                            <constraint firstItem="IEA-w7-JzV" firstAttribute="top" secondItem="Uh7-Bq-JRh" secondAttribute="bottom" constant="50" id="iwr-U2-eG0"/>
+                            <constraint firstItem="Uh7-Bq-JRh" firstAttribute="leading" secondItem="IEA-w7-JzV" secondAttribute="leading" id="l9p-gj-O7Q"/>
+                            <constraint firstAttribute="bottom" secondItem="dib-Vk-oLH" secondAttribute="bottom" id="uxg-eb-GD1"/>
+                            <constraint firstItem="IEA-w7-JzV" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="yRv-fk-l99"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -25,6 +58,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="TaroList" width="1000" height="1000"/>
+        <image name="background" width="87" height="144"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

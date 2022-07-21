@@ -10,13 +10,27 @@ import GoogleSignIn
 import FirebaseCore
 import FirebaseAuth
 
-
 class AuthViewController: UIViewController {
     var authModel: AuthModel?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //for easy test
+//         notifications
+//        UNUserNotificationCenter.current().requestAuthorization(options: .alert) { result, error in
+//            print(result)
+//            print(error)
+//        }
+        let content = UNMutableNotificationContent()
+        content.title = "The card of the day is waiting for you!"
+        content.subtitle = "See what events await you today!"
+        let timeTrigger = UNTimeIntervalNotificationTrigger(timeInterval: 10.0, repeats: false)
+        let request = UNNotificationRequest(identifier: "test notification",
+                              content: content,
+                              trigger: timeTrigger)
+        UNUserNotificationCenter.current().add(request) { error in
+            print(error)
+        }
+        // for easy test
         goToMenu()
     }
 
@@ -43,9 +57,7 @@ class AuthViewController: UIViewController {
 
             let credential = GoogleAuthProvider.credential(withIDToken: idToken,
                                                      accessToken: authentication.accessToken)
-
             authModel = AuthModel(credential: credential)
-            
             goToMenu()
         }
     }

@@ -9,10 +9,9 @@ import UIKit
 
 class MenuCardsDayModel {
     struct MenuCardsJson: Decodable {
-        let description : String
+        let description: String
         let image: String
     }
-    
     let jsonPath = "configCardsDay"
     var cards: [MenuCardsJson]?
     

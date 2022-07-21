@@ -13,6 +13,8 @@
 			</array>
 		</dict>
 	</array>
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>to annoy you</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -31,6 +33,22 @@
 				</dict>
 			</array>
 		</dict>
+	</dict>
+	<key>UILaunchScreens</key>
+	<dict>
+		<key>UIDefaultLaunchScreen</key>
+		<string></string>
+		<key>UILaunchScreenDefinitions</key>
+		<array>
+			<dict>
+				<key>UIImageName</key>
+				<string></string>
+				<key>UILaunchScreenIdentifier</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>UIURLToLaunchScreenAssociations</key>
+		<dict/>
 	</dict>
 </dict>
 </plist>

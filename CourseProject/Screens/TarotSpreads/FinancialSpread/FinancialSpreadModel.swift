@@ -10,12 +10,11 @@ import UIKit
 class FinancialSpreadModel {
     struct FinancialSpreadJson: Encodable, Decodable {
         let image: String
-        let description : String
+        let description: String
     }
     
     let jsonPath = "configFinancial"
     var cards: [FinancialSpreadJson]?
-    
     init() {
         guard
           let url = Bundle.main.url(forResource: jsonPath, withExtension: "json"),

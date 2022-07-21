@@ -13,7 +13,6 @@ enum MenuModel: Int, CustomStringConvertible {
     case preservation
     case video
     case settings
-    
     var description: String {
         switch self {
         case .tarotSpreads: return "tarotSpreadsMenu"

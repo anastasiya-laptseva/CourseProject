@@ -121,6 +121,7 @@
                                     <constraint firstAttribute="height" constant="215" id="lqn-H6-RJW"/>
                                     <constraint firstAttribute="width" constant="200" id="nD3-Bz-rGE"/>
                                 </constraints>
+                                <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="menuCell" id="Tiy-TL-UoL" customClass="MenuTableViewCell" customModule="CourseProject" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="200" height="43.5"/>
@@ -487,6 +488,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="yNp-Nh-9b6">
                                 <rect key="frame" x="0.0" y="44" width="414" height="798"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="b3H-Dh-N1x"/>
@@ -526,6 +528,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="9f6-ho-93X">
                                 <rect key="frame" x="0.0" y="44" width="414" height="798"/>
                                 <color key="backgroundColor" red="0.68602113049439706" green="0.68602113049439706" blue="0.68602113049439706" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="P9f-7s-ESD"/>
@@ -626,6 +629,21 @@
                                     </view>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ne4-n6-bqQ">
+                                <rect key="frame" x="157" y="761" width="100" height="31"/>
+                                <color key="backgroundColor" red="0.68602113050000002" green="0.68602113050000002" blue="0.68602113050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="bvz-tt-L2P" userLabel="width = 100"/>
+                                    <constraint firstAttribute="height" constant="31" id="vfo-r8-eeZ" userLabel="height = 50"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="CRASH">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="crashClick:" destination="s6X-oA-xME" eventType="primaryActionTriggered" id="hoN-jA-Hqz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vBo-nu-BAA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -633,6 +651,8 @@
                             <constraint firstItem="vBo-nu-BAA" firstAttribute="trailing" secondItem="b15-pk-owD" secondAttribute="trailing" id="BPt-P5-Upl"/>
                             <constraint firstItem="O4S-k8-uki" firstAttribute="top" secondItem="mLl-du-gDO" secondAttribute="top" id="Ksh-23-6OW"/>
                             <constraint firstItem="O4S-k8-uki" firstAttribute="leading" secondItem="vBo-nu-BAA" secondAttribute="leading" id="MS2-BE-454"/>
+                            <constraint firstItem="ne4-n6-bqQ" firstAttribute="centerX" secondItem="vBo-nu-BAA" secondAttribute="centerX" id="WAA-nK-JaW"/>
+                            <constraint firstItem="vBo-nu-BAA" firstAttribute="bottom" secondItem="ne4-n6-bqQ" secondAttribute="bottom" constant="50" id="d7H-51-S7S"/>
                             <constraint firstItem="b15-pk-owD" firstAttribute="leading" secondItem="vBo-nu-BAA" secondAttribute="leading" id="iGy-id-ifI"/>
                             <constraint firstItem="b15-pk-owD" firstAttribute="top" secondItem="vBo-nu-BAA" secondAttribute="top" id="qdE-Zr-75M"/>
                             <constraint firstItem="vBo-nu-BAA" firstAttribute="trailing" secondItem="O4S-k8-uki" secondAttribute="trailing" id="qzd-ZT-SPj"/>
