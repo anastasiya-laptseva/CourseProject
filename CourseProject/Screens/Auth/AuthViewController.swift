@@ -31,7 +31,7 @@ class AuthViewController: UIViewController {
             print(error)
         }
         // for easy test
-        goToMenu()
+//        goToMenu()
     }
 
     @IBAction func onSignIn(_ sender: Any) {
